@@ -1,0 +1,2043 @@
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="vi" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title></title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <!--[if mso]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+    </xml><![endif]-->
+    <!--[if !mso]><!-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css"/>
+    <!--<![endif]-->
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Roboto, Tahoma, Verdana, Segoe, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 4px;
+        }
+
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: inherit !important;
+        }
+
+        #MessageViewBody a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        p {
+            line-height: inherit;
+        }
+
+        div {
+            letter-spacing: 0px;
+        }
+
+        h1, ul, div {
+            color: #393d47;
+            line-height: 120%;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        @media (max-width: 740px) {
+            .row-content {
+                width: 100% !important;
+            }
+
+            .column .border,
+            .mobile_hide {
+                display: none;
+            }
+
+            table {
+                table-layout: fixed !important;
+            }
+
+            .mobile_hide {
+                min-height: 0;
+                max-height: 0;
+                max-width: 0;
+                overflow: hidden;
+                font-size: 0px;
+            }
+
+            .stack .column {
+                width: 100%;
+                display: block;
+            }
+
+            .desktop_hide,
+            .desktop_hide table {
+                display: table !important;
+                max-height: none !important;
+            }
+        }
+    </style>
+</head>
+<body style="background-color: #FFFFFF; margin: 0; padding: 4px; -webkit-text-size-adjust: none; text-size-adjust: none;">
+<table cellpadding="0" cellspacing="0" class="nl-container" style=" background-color: #FFFFFF;" width="100%">
+    <tbody>
+    <tr>
+        <td>
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-1" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content"
+                               style=" color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style="font-weight: 400; text-align: left; vertical-align: top; padding-left: 12px; border:none;"
+                                    width="50%">
+                                    <div class="spacer_block" style="height:5px;"> </div>
+                                    <div class="spacer_block mobile_hide" style="height:15px;"> </div>
+                                    <table cellpadding="0" cellspacing="0" class="image_block" width="100%">
+                                        <tr>
+                                            <td style="width:100%;padding:5px 5px 10px">
+                                                <div style="line-height:10px"><img
+                                                        src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/646706_628872/Logo%20blue.png"
+                                                        style="display: block; height: auto; border: 0; width: 100px; max-width: 100%;"
+                                                        width="100"/></div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td class="column column-2"
+                                    style="font-weight: 400; text-align: left; vertical-align: top; padding-left: 5px; padding-right: 12px; border:none"
+                                    width="50%">
+                                    <div class="spacer_block" style="height:5px;line-height:5px;"> </div>
+                                    <table cellpadding="0" cellspacing="0" class="html_block mobile_hide" width="100%">
+                                        <tr>
+                                            <td style="float:right">
+                                                <div align="center" style="text-align:center;">
+                                                    <table style="width: 100%;display: flex;font-size: 14px;line-height: 18px;">
+                                                        <td style="width: 100%">
+                                                            <table style="cursor: pointer">
+                                                                <tr>
+                                                                    <td>
+                                                                        <img src="https://www.googleapis.com/storage/v1/b/tourcdn/o/1%2Fthumb_GSLP1ZASAW_support_call.png?generation=1600942573736290&alt=media"
+                                                                             style="width: 24px; height: 24px">
+                                                                        </img></td>
+                                                                    <td>
+                                                                        <b style="color: #00b6f3; font-style: normal; font-weight: normal">1900
+                                                                            2083</b>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <table style="cursor: pointer">
+                                                                <tr>
+                                                                    <td>
+                                                                        <img src="https://www.googleapis.com/storage/v1/b/tourcdn/o/1%2Fthumb_QL0FPBW1SV_website.png?generation=1600942176973168&alt=media"
+                                                                             style="width: 24px; height: 24px"/>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="https://www.vntravelgroup.vn/"
+                                                                           style="color: #00b6f3;text-decoration: none;">www.vntravelgroup.vn</a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="spacer_block" style="height:5px;line-height:5px;"> </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-2" style=" background-size: auto;"
+                   width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content"
+                               style=" background-size: auto; color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; padding:0px; border:none"
+                                    width="100%">
+                                    <table cellpadding="0" cellspacing="0" class="divider_block" width="100%">
+                                        <tr>
+                                            <td style="padding-left:12px;padding-right:12px;">
+                                                <div align="center">
+                                                    <table cellpadding="0" cellspacing="0" width="100%">
+                                                        <tr>
+                                                            <td class="divider_inner"
+                                                                style="font-size: 1px; line-height: 1px; border-top: 2px solid #00B6F3;">
+                                                                <span> </span></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-3" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content"
+                               style=" color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; border:none"
+                                    width="100%">
+                                    <div class="spacer_block" style="height:5px;line-height:5px;"> </div>
+                                    <table cellpadding="0" cellspacing="0" class="heading_block mobile_hide"
+                                           width="100%">
+                                        <tr>
+                                            <td style="padding:15px 20px 5px;text-align:center;width:100%;"
+                                                th:switch="${data.success}">
+                                                <h1 th:case="true"
+                                                    style="margin: 0;  font-size: 34px; font-weight: 400; letter-spacing: normal; text-align: center;">
+                                                    ĐƠN PHÒNG THÀNH CÔNG</h1>
+                                                <h1 th:case="false"
+                                                    style="margin: 0;  font-size: 34px; font-weight: 400; letter-spacing: normal; text-align: center;">
+                                                    ĐƠN PHÒNG DỰ KIẾN</h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="spacer_block" style="height:5px;line-height:5px;"> </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-4" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content stack"
+                               style=" color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; border:none"
+                                    width="100%">
+
+
+                                    <div style="letter-spacing:0px;line-height:150%;text-align:left;">
+                                        <p style="margin: 0; margin-bottom: 16px;">Kính chào <strong
+                                                th:text="${data.hotelName}">Tên khách
+                                            sạn</strong>,</p>
+                                        <div th:switch="${data.success}">
+                                            <div th:case="true">
+                                                <p style="margin: 0; margin-bottom: 16px;"> Quý đối tác có một đơn đặt
+                                                    phòng thành công đã được thanh toán trên hệ thống đặt phòng của
+                                                    Mytour
+                                                    Partner
+                                                    Solution.</p>
+                                            </div>
+                                            <div th:case="false">
+                                                <p style="margin: 0; margin-bottom: 16px;">Quý đối tác có một đơn đặt
+                                                    phòng dự kiến trên hệ thống đặt phòng của Mytour Partner Solution,
+                                                    Quý đối tác vui lòng bấm chấp nhận đơn phòng theo link bên dưới hoặc
+                                                    chúng tôi sẽ liên hệ với Quý đối tác để xác nhận lại đặt phòng này
+                                                    trong vòng 2h kể từ thời điểm phát sinh đơn. Sau thời gian trên, nếu
+                                                    quý đối tác chưa bấm chấp nhận đơn phòng hoặc không nhận được cuộc
+                                                    gọi từ Mytour, đơn đặt phòng này sẽ được tự động hủy.</p>
+                                            </div>
+                                        </div>
+                                        <p style="margin: 0; margin-bottom: 16px;">Quý đối tác có thể <a
+                                                th:href="${data.bookingDetailUrl}"
+                                                style="color: #00adff;">
+                                            <span>truy cập hệ thống để xem chi tiết đơn hàng <strong
+                                                    th:text="${data.hotelBookingId}"></strong>. </span></a>
+                                        </p>
+                                    </div>
+                                    <p style="margin:8px 0px;"><strong>Chi tiết đơn phòng</strong></p>
+
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-5" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content"
+                               style=" color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px;"
+                                    width="33.333333333333336%">
+                                    <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                        <tr>
+                                            <td style="text-align:center;width:100%;padding-top:5px;">
+                                                <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; text-align: left;">
+                                                    <span class="tinyMce-placeholder">Mã đơn phòng</span></h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                        <tr>
+                                            <td style="text-align:center;width:100%;padding-bottom:5px;">
+                                                <h1 style="margin: 0; color: #bbbbbb; font-size: 12px; font-weight: 400; letter-spacing: normal; text-align: left;">
+                                                    <span class="tinyMce-placeholder" style="color: #716e6e;">(Dùng đối soát với kế toán của Mytour)</span>
+                                                </h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td class="column column-2"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 8px; padding-right: 8px;"
+                                    width="66.66666666666667%">
+                                    <table cellpadding="0" cellspacing="0" class="paragraph_block"
+                                           style="word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td style="padding-top:8px;padding-bottom:8px;">
+                                                <div style="letter-spacing:0px;line-height:200%;text-align:left;">
+                                                    <p style="margin: 0;"><strong th:text="${data.hotelBookingId}">H123456789</strong>
+                                                    </p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-6" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content"
+                               style=" color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px;"
+                                    width="33.333333333333336%">
+                                    <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                        <tr>
+                                            <td style="text-align:center;width:100%;padding-top:5px;">
+                                                <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; text-align: left;">
+                                                    <span class="tinyMce-placeholder">Mã nhận phòng</span></h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                        <tr>
+                                            <td style="text-align:center;width:100%;padding-bottom:5px;">
+                                                <h1 style="margin: 0; color: #bbbbbb; font-size: 12px; font-weight: 400; letter-spacing: normal; text-align: left;">
+                                                    <span class="tinyMce-placeholder" style="color: #716e6e;">(Dùng cho khách nhận phòng)</span>
+                                                </h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td class="column column-2"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 8px; padding-right: 8px;"
+                                    width="66.66666666666667%">
+                                    <table cellpadding="0" cellspacing="0" class="paragraph_block"
+                                           style=" word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td style="padding-top:8px;padding-bottom:8px;">
+                                                <div style="letter-spacing:0px;line-height:150%;text-align:left;">
+                                                    <p style="margin: 0;"><strong
+                                                            th:text="${data.bookingOriginal.checkInCode}">MLT123456789</strong>
+                                                    </p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-7" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content stack"
+                               style=" color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #ecfaff; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-top: 5px; padding-bottom: 5px;"
+                                    width="100%">
+                                    <table cellpadding="8" cellspacing="0" class="heading_block" width="100%">
+                                        <tr>
+                                            <td>
+                                                <h1 style="margin: 0; letter-spacing: normal; text-align: center;">Thông
+                                                    tin khách sạn</h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-8" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content"
+                               style=" color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px;"
+                                    width="33.333333333333336%">
+                                    <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                        <tr>
+                                            <td style="text-align:center;width:100%;padding-top:5px;padding-bottom:5px;">
+                                                <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: left;">
+                                                    <span class="tinyMce-placeholder">Tên khách sạn - ID</span>
+                                                </h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td class="column column-2"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 8px; padding-right: 8px;"
+                                    width="66.66666666666667%">
+                                    <table cellpadding="0" cellspacing="0" class="paragraph_block"
+                                           style=" word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td style="padding-top:8px;padding-bottom:8px;">
+                                                <div style="letter-spacing:0px;line-height:180%;text-align:left;">
+                                                    <p style="margin: 0;"
+                                                       th:text="${data.hotelName} + ' - ' + ${data.rootHotelId}">Mường
+                                                        Thanh Grand
+                                                        Plaza Hạ Long</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-9" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content"
+                               style=" color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px;"
+                                    width="33.333333333333336%">
+                                    <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                        <tr>
+                                            <td style="text-align:center;width:100%;padding-top:5px;padding-bottom:5px;">
+                                                <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: left;">
+                                                    Địa chỉ   </h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td class="column column-2"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 8px; padding-right: 8px;"
+                                    width="66.66666666666667%">
+                                    <table cellpadding="0" cellspacing="0" class="paragraph_block"
+                                           style=" word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td style="padding-top:8px;padding-bottom:8px;">
+                                                <div style="letter-spacing:0px;line-height:180%;text-align:left;">
+                                                    <p style="margin: 0;" th:text="${data.hotelAddress}">Hạ Long - Quảng
+                                                        Ninh</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-10" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content stack"
+                               style=" color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #ecfaff; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-top: 5px; padding-bottom: 5px;"
+                                    width="100%">
+                                    <table cellpadding="8" cellspacing="0" class="heading_block" width="100%">
+                                        <tr>
+                                            <td>
+                                                <h1 style="margin: 0; letter-spacing: normal; text-align: center;">Thông
+                                                    tin khách hàng</h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-11" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content"
+                               style=" color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px;"
+                                    width="33.333333333333336%">
+                                    <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                        <tr>
+                                            <td style="text-align:center;width:100%;padding-top:5px;padding-bottom:5px;">
+                                                <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: left;">
+                                                    Họ tên khách hàng</h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td class="column column-2"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 8px; padding-right: 8px;"
+                                    width="66.66666666666667%">
+                                    <table cellpadding="0" cellspacing="0" class="paragraph_block"
+                                           style=" word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td style="padding-top:8px;padding-bottom:8px;">
+                                                <div style="letter-spacing:0px;line-height:180%;text-align:left;">
+                                                    <p style="margin: 0;"
+                                                       th:text="${data.bookingOriginal.customerName}">
+                                                        Phùng Thị Khánh Chi</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-13" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content"
+                               style=" color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px;"
+                                    width="33.333333333333336%">
+                                    <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                        <tr>
+                                            <td style="text-align:center;width:100%;padding-top:5px;padding-bottom:5px;">
+                                                <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: left;">
+                                                    Email</h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td class="column column-2"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 8px; padding-right: 8px;"
+                                    width="66.66666666666667%">
+                                    <table cellpadding="0" cellspacing="0" class="paragraph_block"
+                                           style=" word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td style="padding-top:8px;padding-bottom:8px;">
+                                                <div style="letter-spacing:0px;line-height:180%;text-align:left;">
+                                                    <p style="margin: 0;"><span style="color: #0077ff;"
+                                                                                th:text="${data.bookingOriginal.customerEmail}">khanh.chi@gmail.com</span>
+                                                    </p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-14" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content"
+                               style=" color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px;"
+                                    width="33.333333333333336%">
+                                    <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                        <tr>
+                                            <td style="text-align:center;width:100%;padding-top:5px;padding-bottom:5px;">
+                                                <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: left;">
+                                                    <span class="tinyMce-placeholder">Ngày nhận phòng</span></h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td class="column column-2"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 8px; padding-right: 8px;"
+                                    width="66.66666666666667%">
+                                    <table cellpadding="0" cellspacing="0" class="paragraph_block"
+                                           style=" word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td style="padding-top:8px;padding-bottom:8px;">
+                                                <div style="letter-spacing:0px;line-height:180%;text-align:left;">
+                                                    <p style="margin: 0;" th:text="${data.bookingOriginal.checkIn}">
+                                                        02/04/2022</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-15" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content"
+                               style=" color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px;"
+                                    width="33.333333333333336%">
+                                    <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                        <tr>
+                                            <td style="text-align:center;width:100%;padding-top:5px;padding-bottom:5px;">
+                                                <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: left;">
+                                                    Ngày trả phòng</h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td class="column column-2"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 8px; padding-right: 8px;"
+                                    width="66.66666666666667%">
+                                    <table cellpadding="0" cellspacing="0" class="paragraph_block"
+                                           style=" word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td style="padding-top:8px;padding-bottom:8px;">
+                                                <div style="letter-spacing:0px;line-height:180%;text-align:left;">
+                                                    <p style="margin: 0;" th:text="${data.bookingOriginal.checkOut}">
+                                                        02/04/2022</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-16" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content stack"
+                               style=" color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; padding:0px; border:none"
+                                    width="100%">
+                                    <div class="spacer_block" style="height:10px;line-height:10px;"> </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+            <div th:each="bookingRoom: ${data.bookingMerge.bookingRooms}">
+                <table align="center" cellpadding="0" cellspacing="0" class="row row-17" width="100%">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <table align="center" cellpadding="0" cellspacing="0" class="row-content"
+                                   style=" color: #000000; width: 720px;" width="720">
+                                <tbody>
+                                <tr>
+                                    <td class="column column-1"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #00b6f3; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 8px; padding-right: 8px;"
+                                        width="33.333333333333336%">
+                                        <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                            <tr>
+                                                <td style="padding-bottom:15px;padding-left:10px;padding-right:10px;padding-top:15px;text-align:center;width:100%;">
+                                                    <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: center;">
+                                                        <span style="color: #ffffff;">Loại phòng</span></h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="column column-2"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #00b6f3; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC;"
+                                        width="33.333333333333336%">
+                                        <table cellpadding="0" cellspacing="0" class="html_block" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <div align="center" style="text-align:center;">
+                                                        <div style="
+        width: 100%;
+        height: 60px;
+        display: flex;
+        color: #ffffff;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+      ">
+                                                            <div style="
+          width: 25%;
+          min-width:60px;
+                    height: 100%;
+                    min-height: 60px;
+          border-right: 1px solid #d9dbdc;
+          padding: 8px 8px 0px;
+          color: #ffffff;
+        ">
+                                                                SL Phòng
+                                                            </div>
+                                                            <div style="padding: 10px 20px 0px;color: #ffffff;">
+                                                                <span> Số khách tiêu chuẩn (1)</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="column column-3"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #00b6f3; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px; padding-right: 5px;"
+                                        width="16.666666666666668%">
+                                        <table cellpadding="0" cellspacing="0" class="paragraph_block"
+                                               style=" word-break: break-word;" width="100%">
+                                            <tr>
+                                                <td style="padding-bottom:10px;padding-top:10px;">
+                                                    <div style="letter-spacing:0px;line-height:150%;text-align:center;">
+                                                        <p style="margin: 0;"><span style="color: #ffffff;">Số khách phụ thu (2)</span>
+                                                        </p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="column column-4"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #00b6f3; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px; padding-right: 5px;"
+                                        width="16.666666666666668%">
+                                        <table cellpadding="0" cellspacing="0" class="paragraph_block"
+                                               style=" word-break: break-word;" width="100%">
+                                            <tr>
+                                                <td style="padding-bottom:10px;padding-left:5px;padding-right:5px;padding-top:10px;">
+                                                    <div style="letter-spacing:0px;line-height:150%;text-align:center;">
+                                                        <p style="margin: 0;"><span style="color: #ffffff;">Tổng khách lưu trú (1) + (2)</span>
+                                                        </p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table align="center" cellpadding="0" cellspacing="0" class="row row-18 mobile_hide" width="100%">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <table align="center" cellpadding="0" cellspacing="0" class="row-content"
+                                   style=" color: #000000; width: 720px;" width="720">
+                                <tbody>
+                                <tr>
+                                    <td class="column column-1"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px;"
+                                        width="33.333333333333336%">
+                                        <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                            <tr>
+                                                <td style="text-align:center;width:100%;padding-top:5px;padding-bottom:5px;">
+                                                    <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: left;">
+                                                        <strong th:text="${bookingRoom.roomName}">Executive
+                                                            Suites</strong></h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="column column-2"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC;"
+                                        width="8.333333333333336%">
+                                        <table cellpadding="0" cellspacing="0" class="html_block" width="100%"
+                                               height="100%">
+                                            <tr>
+                                                <td style="width: 25%;padding: 8px;">
+                                                    <span th:text="${bookingRoom.numberRoom}">2</span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="column column-2"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC;padding-left: 5px; padding-right: 5px;"
+                                        width="24.666666666666668%">
+                                        <table cellpadding="0" cellspacing="0" class="html_block" width="100%"
+                                               height="100%">
+                                            <tr>
+                                                <td style="text-align:center;width:100%;padding-top:5px;">
+                                                    <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: left;">
+                                                        <strong><span th:text="${bookingRoom.originalStandardAdults}"
+                                                                      style="line-height:16px">5&nbsp;</span> Người
+                                                            lớn</strong>
+                                                    </h1>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align:center;width:100%">
+                                                    <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: left;">
+                                                        <strong><span th:if="${bookingRoom.childrenAsAdults> 0}">
+                                                    <span style="line-height:16px" th:text="${bookingRoom.childrenAsAdults}"></span>
+                                                            Trẻ em
+                                                    </span></strong>
+                                                    </h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="column column-3"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px; padding-right: 5px;"
+                                        width="16.666666666666668%">
+                                        <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                            <tr>
+                                                <td style="text-align:center;width:100%;padding-top:5px;">
+                                                    <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: left;">
+                                                        <strong th:if="${bookingRoom.extraAdults > 0}"><span
+                                                                th:text="${bookingRoom.extraAdults}">0</span><span> Người lớn</span>
+                                                        </strong></h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                            <tr>
+                                                <td style="text-align:center;width:100%;padding-bottom:5px;">
+                                                    <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: left;">
+                                                        <strong th:if="${bookingRoom.numberStandardChildren > 0}"><span
+                                                                th:text="${bookingRoom.numberStandardChildren}"></span><span> Trẻ em</span></strong>
+                                                    </h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="column column-4"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px; padding-right: 5px;"
+                                        width="16.666666666666668%">
+                                        <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                            <tr>
+                                                <td style="text-align:center;width:100%;padding-top:5px;">
+                                                    <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: left;">
+                                                        <strong><span th:text="${bookingRoom.numAdults}">5</span> Người
+                                                            lớn</strong>
+                                                    </h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                            <tr>
+                                                <td style="text-align:center;width:100%;padding-bottom:5px;">
+                                                    <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: left;">
+                                                        <strong th:if="${bookingRoom.numChildren > 0}"><span
+                                                                th:text="${bookingRoom.numChildren}">10</span> Trẻ
+                                                            em</strong>
+                                                    </h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table align="center" cellpadding="0" cellspacing="0" class="row row-19" width="100%">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <table align="center" cellpadding="0" cellspacing="0" class="row-content"
+                                   style=" color: #000000; width: 720px;" width="720">
+                                <tbody>
+                                <tr>
+                                    <td class="column column-1"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px;"
+                                        width="33.333333333333336%">
+                                        <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                            <tr>
+                                                <td style="text-align:center;width:100%;padding-top:5px;padding-bottom:5px;">
+                                                    <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: bold; letter-spacing: normal; line-height: 180%; text-align: left;">
+                                                        Loại giường</h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="column column-2"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 8px; padding-right: 8px;"
+                                        width="66.66666666666667%">
+                                        <table cellpadding="0" cellspacing="0" class="paragraph_block"
+                                               style=" word-break: break-word;" width="100%">
+                                            <tr>
+                                                <td style="padding-top:8px;padding-bottom:8px;">
+                                                    <div style="letter-spacing:0px;line-height:180%;text-align:left;">
+                                                        <p style="margin: 0;" th:text="${bookingRoom.bedInfo}">Loại
+                                                            giường xxx</p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table align="center" cellpadding="0" cellspacing="0" class="row row-20" width="100%">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <table align="center" cellpadding="0" cellspacing="0" class="row-content"
+                                   style=" color: #000000; width: 720px;" width="720">
+                                <tbody>
+                                <tr>
+                                    <td class="column column-1"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px;"
+                                        width="33.333333333333336%">
+                                        <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                            <tr>
+                                                <td style="text-align:center;width:100%;padding-top:5px;padding-bottom:5px;">
+                                                    <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: left;">
+                                                        Tên loại giá</h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="column column-2"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 8px; padding-right: 8px;"
+                                        width="66.66666666666667%">
+                                        <table cellpadding="0" cellspacing="0" class="paragraph_block"
+                                               style=" word-break: break-word;" width="100%">
+                                            <tr>
+                                                <td style="padding-top:8px;padding-bottom:8px;">
+                                                    <div style="letter-spacing:0px;line-height:180%;text-align:left;">
+                                                        <p style="margin: 0;" th:text="${bookingRoom.ratePlanName}">TA
+                                                            BF</p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table align=" center" cellpadding="0" cellspacing="0" class="row row-21" width="100%">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <table align="center" cellpadding="0" cellspacing="0"
+                                   class="row-content"
+                                   style=" color: #000000; width: 720px;"
+                                   width="720">
+                                <tbody>
+                                <tr>
+                                    <td class="column column-1"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px;"
+                                        width="33.333333333333336%">
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="heading_block" width="100%">
+                                            <tr>
+                                                <td style="text-align:center;width:100%;padding-top:5px;padding-bottom:5px;">
+                                                    <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: left;">
+                                                        Loại giá (ID)</h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="column column-2"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 8px; padding-right: 8px;"
+                                        width="66.66666666666667%">
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="paragraph_block"
+                                               style=" word-break: break-word;"
+                                               width="100%">
+                                            <tr>
+                                                <td style="padding-top:8px;padding-bottom:8px;">
+                                                    <div style="letter-spacing:0px;line-height:180%;text-align:left;">
+                                                        <p style="margin: 0;">
+                                                        <div th:switch="${bookingRoom.rateTypeId}">
+                                                            <span th:case="1">OTA</span>
+                                                            <span th:case="2">TA INSTANT</span>
+                                                            <span th:case="3">TA REQUEST</span>
+                                                            <span th:case="4">OTA REQUEST</span>
+                                                        </div>
+                                                        </p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <table align="center" cellpadding="0" cellspacing="0" class="row row-35"
+                       width="100%">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <table align="center" cellpadding="0" cellspacing="0"
+                                   class="row-content stack"
+                                   style=" color: #000000; width: 720px;" width="720">
+                                <tbody>
+                                <tr>
+                                    <td class="column column-1"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px; padding-right: 8px; padding-top: 5px; padding-bottom: 5px;"
+                                        width="100%">
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="heading_block" width="100%">
+                                            <tr>
+                                                <td style="text-align:center;width:100%;">
+                                                    <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; text-align: left;">
+                                                        Quyền lợi bao gồm</h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="heading_block" width="100%">
+                                            <tr>
+                                                <td style="text-align:center;width:100%;">
+                                                    <h1 style="margin: 0; color: #bbbbbb; font-size: 12px; font-weight: 400; letter-spacing: normal; text-align: left;line-height:20px">
+                                                                                <span class="tinyMce-placeholder"
+                                                                                      style="color: #716e6e;">(<span
+                                                                                        th:text="${bookingRoom.amenities}">Wifi, nước uống, trà và cà phê</span>)</span>
+                                                    </h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table align="center" cellpadding="0" cellspacing="0" class="row row-36"
+                       width="100%">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <table align="center" cellpadding="0" cellspacing="0"
+                                   class="row-content stack"
+                                   style=" color: #000000; width: 720px;" width="720">
+                                <tbody>
+                                <tr>
+                                    <td class="column column-1"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px; padding-right: 8px; padding-top: 5px; padding-bottom: 5px;"
+                                        width="100%">
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="heading_block" width="100%">
+                                            <tr>
+                                                <td style="text-align:center;width:100%;">
+                                                    <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; text-align: left;">
+                                                        Quyền lợi gói giảm giá</h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="heading_block" width="100%">
+                                            <tr>
+                                                <td style="text-align:center;width:100%;">
+                                                    <h1 style="margin: 0; color: #bbbbbb; font-size: 12px; font-weight: 400; letter-spacing: normal; text-align: left;line-height:20px">
+                                                        <span style="color: #716e6e;">Quyền lợi theo chương trình giảm giá tùy thời điểm áp dụng</span>
+                                                    </h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table align="center" cellpadding="0" cellspacing="0" class="row row-37"
+                       width="100%">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <table align="center" cellpadding="0" cellspacing="0"
+                                   class="row-content stack"
+                                   style=" color: #000000; width: 720px;" width="720">
+                                <tbody>
+                                <tr>
+                                    <td class="column column-1"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px; padding-right: 8px; padding-top: 5px; padding-bottom: 5px;"
+                                        width="100%">
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="heading_block" width="100%">
+                                            <tr>
+                                                <td style="text-align:center;width:100%;">
+                                                    <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; text-align: left;">
+                                                        Yêu cầu đặc biệt (Được đáp ứng tùy theo
+                                                        khả năng của khách sạn
+                                                        khi
+                                                        khách đến nhận phòng)</h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <div th:switch="${bookingRoom.specialRequests !=null and !bookingRoom.specialRequests.isEmpty()}">
+                                            <div th:case="true">
+                                                <table cellpadding="0" cellspacing="0"
+                                                       class="heading_block" width="100%"
+                                                       th:each="specialRequest: ${bookingRoom.specialRequests}">
+                                                    <tr>
+                                                        <td style="text-align:center;width:100%;">
+                                                            <h1 style="margin: 0; color: #bbbbbb; font-size: 12px; font-weight: 400; letter-spacing: normal; text-align: left;line-height:20px">
+                                                                <span style="color: #716e6e;"
+                                                                      th:text="${specialRequest}">Cho phép mang theo chó</span>
+                                                            </h1>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div th:case="false">
+                                                <table cellpadding="0" cellspacing="0"
+                                                       class="heading_block" width="100%">
+                                                    <tr>
+                                                        <td style="text-align:center;width:100%;">
+                                                            <h1 style="margin: 0; color: #bbbbbb; font-size: 12px; font-weight: 400; letter-spacing: normal; text-align: left;line-height:20px">
+                                                                <span style="color: #716e6e;">Không có</span>
+                                                            </h1>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table align="center" cellpadding="0" cellspacing="0" class="row row-38"
+                       width="100%">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <table align="center" cellpadding="0" cellspacing="0"
+                                   class="row-content stack"
+                                   style=" color: #000000; width: 720px;" width="720">
+                                <tbody>
+                                <tr>
+                                    <td class="column column-1"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 5px; padding-right: 8px; padding-top: 5px; padding-bottom: 5px;"
+                                        width="100%">
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="heading_block" width="100%">
+                                            <tr>
+                                                <td style="text-align:center;width:100%;">
+                                                    <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; text-align: left">
+                                                        Chính sách hoàn hủy</h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <div th:each="cancel: ${bookingRoom.cancellations}">
+                                            <table cellpadding="0" cellspacing="0"
+                                                   class="heading_block" width="100%">
+                                                <tr>
+                                                    <td style="text-align:center;width:100%;">
+                                                        <h1 style="margin: 0; color: #bbbbbb; font-size: 12px; font-weight: 400; letter-spacing: normal; text-align: left;line-height:20px">
+                                                            <span style="color: #716e6e;"
+                                                                  th:text="${cancel}">Hủy trong vòng 3 ngày trước khi đến: phí 100%</span>
+                                                        </h1>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table align="center" cellpadding="0" cellspacing="0" class="row row-39"
+                       width="100%">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <table align="center" cellpadding="0" cellspacing="0"
+                                   class="row-content stack"
+                                   style=" color: #000000; width: 720px;" width="720">
+                                <tbody>
+                                <tr>
+                                    <td class="column column-1"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; border:none"
+                                        width="100%">
+                                        <div class="spacer_block"
+                                             style="height:0px;line-height:0px;"> 
+                                        </div>
+                                        <div class="spacer_block "
+                                             style="height:10px;line-height:10px;"> 
+                                        </div>
+                                        <div class="spacer_block"
+                                             style="height:0px;line-height:0px;"> 
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div th:each="bookingRoom: ${data.bookingDetailRS.bookingRooms}">
+                <table align="center" cellpadding="0" cellspacing="0"
+                       class="row row-40 mobile_hide" width="100%">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <table align="center" cellpadding="0" cellspacing="0"
+                                   class="row-content"
+                                   style=" color: #000000; width: 720px;" width="720">
+                                <tbody>
+                                <tr>
+                                    <td class="column column-1"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #00b6f3; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 8px; padding-right: 8px;"
+                                        width="16.666666666666668%">
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="heading_block" width="100%">
+                                            <tr>
+                                                <td style="padding-bottom:15px;padding-left:10px;padding-right:10px;padding-top:15px;text-align:center;width:100%;">
+                                                    <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: center;">
+                                                        <span style="color: #ffffff;">Đêm phòng</span>
+                                                    </h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="column column-2"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #00b6f3; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 8px; padding-right: 8px;"
+                                        width="16.666666666666668%">
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="heading_block" width="100%">
+                                            <tr>
+                                                <td style="padding-bottom:15px;padding-left:10px;padding-right:10px;padding-top:15px;text-align:center;width:100%;">
+                                                    <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: center;">
+                                                        <span style="color: #ffffff;">Giá phòng</span>
+                                                    </h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="column column-3"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #00b6f3; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC;"
+                                        width="25%">
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="paragraph_block"
+                                               style=" word-break: break-word;" width="100%">
+                                            <tr>
+                                                <td style="padding-bottom:5px;padding-top:5px;">
+                                                    <div style="letter-spacing:0px;line-height:150%;text-align:center;">
+                                                        <p style="margin: 0;"><span
+                                                                style="color: #ffffff;">Phụ thu</span>
+                                                        </p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="html_block" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <div align="center"
+                                                         style="text-align:center;">
+                                                        <div style="width: 100%; display: flex;border-top: 2px solid #d9dbdc">
+                                                            <div style="width: 50%;height: 40px;border-right: 1px solid #d9dbdc;padding-top: 12px;color: #ecfaff;">
+                                                                Người lớn
+                                                            </div>
+                                                            <div style="width: 50%;height: 40px;padding-top: 12px;color: #ecfaff;">
+                                                                Trẻ em
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="column column-4"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #00b6f3; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC;"
+                                        width="25%">
+                                        <table cellpadding="5" cellspacing="0"
+                                               class="paragraph_block"
+                                               style=" word-break: break-word;" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <div style="letter-spacing:0px;line-height:150%;text-align:center;">
+                                                        <p style="margin: 0;"><span
+                                                                style="color: #ffffff;">Phụ thu khác</span>
+                                                        </p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="html_block" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <div align="center"
+                                                         style="text-align:center;">
+                                                        <div style="width: 100%; display: flex;border-top: 2px solid #d9dbdc">
+                                                            <div style="width: 50%;height: 40px;border-right: 1px solid #d9dbdc;padding-top: 12px;color: #ecfaff;">
+                                                                Giá
+                                                            </div>
+                                                            <div style="width: 50%;height: 40px;color: #ecfaff;padding-top: 12px">
+                                                                Tên
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="column column-5"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #00b6f3; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-left: 10px; padding-right: 5px;"
+                                        width="16.666666666666668%">
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="paragraph_block"
+                                               style=" word-break: break-word;" width="100%">
+                                            <tr>
+                                                <td style="padding-bottom:5px;padding-top:10px;">
+                                                    <div style="letter-spacing:0px;line-height:150%;text-align:left;">
+                                                        <p style="margin: 0;"><span
+                                                                style="color: #ffffff;">Khuyến mãi (ID)</span>
+                                                        </p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="paragraph_block"
+                                               style=" word-break: break-word;" width="100%">
+                                            <tr>
+                                                <td style="padding-bottom:10px;">
+                                                    <div style="letter-spacing:0px;line-height:150%;text-align:left;">
+                                                        <p style="margin: 0;"><span
+                                                                style="color: #716e6e;">Dành cho</span>
+                                                        </p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table align="center" cellpadding="0" cellspacing="0"
+                       class="row row-41 mobile_hide" width="100%">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <table align="center" cellpadding="0" cellspacing="0"
+                                   class="row-content stack"
+                                   style=" color: #000000; width: 720px;" width="720">
+                                <tbody>
+                                <tr>
+                                    <td class="column column-1"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #d9dbdc; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-top: 5px; padding-bottom: 5px;"
+                                        width="100%">
+                                        <table cellpadding="8" cellspacing="0"
+                                               class="heading_block" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <h1 style="margin: 0; letter-spacing: normal; text-align: center;">
+                                                        <strong>Chi tiết giá phòng (<span
+                                                                th:text="${bookingRoom.numAdults}"></span> người lớn,
+                                                            <span th:text="${bookingRoom.numChildren}"></span> trẻ
+                                                            em)</strong></h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div th:each="bookingRoomNight: ${bookingRoom.roomNights}">
+                    <table align="center" cellpadding="0" cellspacing="0"
+                           class="row row-42 mobile_hide" width="100%">
+                        <tbody>
+                        <tr>
+                            <td>
+                                <table align="center" cellpadding="0" cellspacing="0"
+                                       class="row-content"
+                                       style=" color: #000000; width: 720px;" width="720">
+                                    <tbody>
+                                    <tr>
+                                        <td class="column column-4"
+                                            style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC;"
+                                            width="100%">
+                                            <table cellpadding="0" cellspacing="0"
+                                                   class="html_block" width="100%" height="100%">
+                                                <tr>
+                                                    <td style="width:16.666666666666668%; border-right: 1px solid #d9dbdc;text-align:center">
+                                                        <span>
+                                                            <strong th:text="${bookingRoomNight.strDate}">02/04/2022</strong>
+                                                        </span>
+                                                    </td>
+                                                    <td style="width:16.666666666666668%; border-right: 1px solid #d9dbdc;text-align:center">
+                                                        <span th:text="${#numbers.formatInteger(bookingRoomNight.basePriceNet,3,'POINT') + ' đ'}">1,000,000,000</span>
+                                                    </td>
+                                                    <td style="width: 12.5%;height:60px; border-right: 1px solid #d9dbdc;text-align:center">
+                                                      <span th:text="${(bookingRoomNight.adultsSurchargeNet != null && bookingRoomNight.adultsSurchargeNet > 0) ? #numbers.formatInteger(bookingRoomNight.adultsSurchargeNet,3,'POINT') + ' đ' : ''}">
+                                                             20,000,000
+                                                        </span>
+                                                    </td>
+                                                    <td style="width: 12.5%;height:60px; border-right: 1px solid #d9dbdc;text-align:center">
+                                                         <span th:text="${(bookingRoomNight.childrenSurchargeNet != null && bookingRoomNight.childrenSurchargeNet > 0) ? #numbers.formatInteger(bookingRoomNight.childrenSurchargeNet,3,'POINT') + ' đ' : ''}">
+                                                            30,000,000
+                                                        </span>
+                                                    </td>
+                                                    <td style="border-right: 1px solid #D9DBDC;height:60px;width:12.5%;text-align:center">
+                                                        <span th:text="${(bookingRoomNight.compulsoryNet != null && bookingRoomNight.compulsoryNet > 0) ? #numbers.formatInteger(bookingRoomNight.compulsoryNet,3,'POINT') + ' đ' : ''}">
+                                                            40,000,000
+                                                        </span>
+                                                    </td>
+                                                    <td style="width: 12.5%;height:60px; border-right: 1px solid #d9dbdc;padding:8px 2px 4px 4px">
+                                                        <div th:if="${(bookingRoomNight.compulsoryNet != null && bookingRoomNight.compulsoryNet > 0)}">
+                                                            <span th:text="${bookingRoomNight.listNameCompulsorySurcharge}">Vé vào khu vui chơi, tài xế riêng</span>
+                                                        </div>
+                                                    </td>
+                                                    <td style="width:16.666666666666668%;height:60px; border-right: 1px solid #d9dbdc;padding:8px 0px 4px 2px">
+                                                        <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 150%; text-align: left;"
+                                                            th:if="${bookingRoomNight.promotionPriceNet != null}">
+                                                            <span th:text="${bookingRoomNight.promotionPriceNet.name}">Đặt sớm giảm 50%</span>
+                                                            <br/>
+                                                            <span th:text="${'(ID: ' + bookingRoomNight.promotionPriceNet.id + ')'}">7895</span>
+                                                            <span th:if="${bookingRoomNight.promotionPriceNet.coupons != null}">
+                                                                <div th:each="coupon : ${bookingRoomNight.promotionPriceNet.coupons}">
+                                                                    <br/>
+                                                                    <span th:text="${coupon.name}">Đặt sớm giảm 50%</span>
+                                                                    <br/>
+                                                                    <span th:text="${'(ID: ' + coupon.id + ')'}">7895</span>
+                                                                </div>
+                                                            </span>
+                                                        </h1>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <table align="center" cellpadding="0" cellspacing="0"
+                       class="row row-44 mobile_hide" width="100%">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <table align="center" cellpadding="0" cellspacing="0"
+                                   class="row-content"
+                                   style=" color: #000000; width: 720px;" width="720">
+                                <tbody>
+                                <tr>
+                                    <td class="column column-1"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #d9dbdc; border-bottom: 0px solid TRANSPAREN; border-left: 0px solid TRANSPAREN; border-right: 0px solid TRANSPAREN; border-top: 0px solid TRANSPAREN; padding-left: 8px; padding-right: 8px;"
+                                        width="16.666666666666668%">
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="heading_block" width="100%">
+                                            <tr>
+                                                <td style="padding-top:9px;text-align:center;width:100%;">
+                                                    <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: center;">
+                                                        <strong>Tổng cộng</strong></h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="column column-2"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #d9dbdc; padding-left: 8px; padding-right: 8px; border:none"
+                                        width="16.666666666666668%">
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="heading_block" width="100%">
+                                            <tr>
+                                                <td style="padding-top:9px;text-align:center;width:100%;">
+                                                    <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 180%; text-align: center;">
+                                                        <strong><span
+                                                                class="tinyMce-placeholder"
+                                                                th:text="${#numbers.formatInteger(bookingRoom.basePriceNet,3,'POINT') + ' đ'}">1,000,000,000</span></strong>
+                                                    </h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="column column-3"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #d9dbdc; border:none"
+                                        width="25%">
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="html_block" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <div align="center"
+                                                         style="text-align:center;">
+                                                        <div style="font-weight:bold;width: 100%; display: flex; font-size: 14px; color: #000000">
+                                                            <div style="
+          width: 50%;
+          height: 40px;
+          padding-top:12px;
+        "
+                                                                 th:text="${(bookingRoom.adultsSurchargeNetAfterPromotion != null && bookingRoom.adultsSurchargeNetAfterPromotion > 0) ? #numbers.formatInteger(bookingRoom.adultsSurchargeNetAfterPromotion,3,'POINT') + ' đ' : ''}">
+                                                                30,000,000
+                                                            </div>
+                                                            <div style="padding-top:12px;width: 50%; height: 40px;"
+                                                                 th:text="${(bookingRoom.childrenSurchargeNetAfterPromotion != null && bookingRoom.childrenSurchargeNetAfterPromotion > 0) ? #numbers.formatInteger(bookingRoom.childrenSurchargeNetAfterPromotion,3,'POINT') + ' đ' : ''}">
+                                                                30,000,000
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="column column-4"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #d9dbdc; border-bottom: 0px solid TRANSPAREN; border-left: 0px solid TRANSPAREN; border-right: 0px solid TRANSPAREN; border-top: 0px solid TRANSPAREN;"
+                                        width="25%">
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="html_block" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <div align="center"
+                                                         style="text-align:center;">
+                                                        <div style="font-weight:bold;width: 100%; display: flex; font-size: 14px; color: #000000">
+                                                            <div style="
+          width: 50%;
+          height: 40px;
+          padding-top: 12px;
+        "
+                                                                 th:text="${(bookingRoom.compulsorySurchargeNet != null && bookingRoom.compulsorySurchargeNet > 0) ? #numbers.formatInteger(bookingRoom.compulsorySurchargeNet,3,'POINT') + ' đ' : ''}">
+                                                                30,000,000
+                                                            </div>
+                                                            <div style="
+          text-align: left;
+          padding-left: 8px;
+          width: 50%;
+          height: 40px;
+          padding-top: 5px;
+        ">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="column column-5"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #d9dbdc; border:none"
+                                        width="16.666666666666668%">
+                                        <table cellpadding="0" cellspacing="0"
+                                               class="html_block" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <div align="center"
+                                                         style="text-align:center;">
+                                                        <div style="width: 100%; display: flex; font-size: 14px; color: #000000">
+                                                            <div style="
+          width: 50%;
+          height: 40px;
+          padding-top: 5px;
+        ">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table align="center" cellpadding="0" cellspacing="0" class="row row-45"
+                       width="100%">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <table align="center" cellpadding="0" cellspacing="0"
+                                   class="row-content stack"
+                                   style=" color: #000000; width: 720px;" width="720">
+                                <tbody>
+                                <tr>
+                                    <td class="column column-1"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; border:none"
+                                        width="100%">
+                                        <div class="spacer_block"
+                                             style="height:0px;line-height:0px;"> 
+                                        </div>
+                                        <div class="spacer_block mobile_hide"
+                                             style="height:10px;line-height:10px;"> 
+                                        </div>
+                                        <div class="spacer_block"
+                                             style="height:0px;line-height:0px;"> 
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table align="center" cellpadding="0" cellspacing="0" class="row row-61"
+                       width="100%">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <table align="center" cellpadding="0" cellspacing="0"
+                                   class="row-content stack"
+                                   style=" color: #000000; width: 720px;" width="720">
+                                <tbody>
+                                <tr>
+                                    <td class="column column-1"
+                                        style=" font-weight: 400; text-align: left; vertical-align: top; padding:0px; border:none"
+                                        width="100%">
+                                        <div class="spacer_block"
+                                             style="height:10px;line-height:10px;"> 
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-62" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content"
+                               style=" color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #f2f3f3; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC;"
+                                    width="41.666666666666664%">
+                                    <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                        <tr>
+                                            <td style="padding-left:5px;padding-right:5px;text-align:center;width:100%;padding-top:10px;">
+                                                <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; text-align: center;">
+                                                    Tổng tiền trả khách sạn</h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                        <tr>
+                                            <td style="padding-left:5px;padding-right:5px;text-align:center;width:100%;">
+                                                <h1 style="margin: 0; color: #bbbbbb; font-size: 12px; font-weight: 400; letter-spacing: normal; text-align: center;">
+                                                    <span style="color: #716e6e;">(Cấn trừ các phòng đã thanh toán)</span>
+                                                </h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellpadding="0" cellspacing="0" class="heading_block"
+                                           width="100%">
+                                        <tr>
+                                            <td style="text-align:center;width:100%;">
+                                                <h1 style="margin: 0;  font-size: 34px; font-weight: 700; letter-spacing: normal; line-height: 200%; text-align: center;"
+                                                    th:text="${#numbers.formatInteger(data.bookingDetailRS.totalMPSToProvider,3,'POINT') + ' đ' }">
+                                                    ******</h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                        <tr>
+                                            <td style="padding-bottom:15px;padding-top:5px;text-align:center;width:100%;">
+                                                <h1 style="margin: 0; color: #000000; font-size: 14px; font-weight: 400; letter-spacing: normal; text-align: center;">
+                                                    Thuế VAT: Bao gồm</h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td class="column column-2"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #f2f3f3; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC;"
+                                    width="58.333333333333336%">
+                                    <table cellpadding="0" cellspacing="0" class="heading_block" width="100%">
+                                        <tr>
+                                            <td style="padding-left:5px;padding-right:5px;text-align:center;width:100%;padding-top:5px;">
+                                                <h1 style="margin: 4px;  font-size: 14px; font-weight: 700; letter-spacing: normal; text-align: center;">
+                                                    Đặt và thanh toán bởi Công ty TNHH Mytour</h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellpadding="0" cellspacing="0" class="html_block" width="100%">
+                                        <tr>
+                                            <td>
+                                                <div align="center" style="text-align:center;">
+                                                    <div style="padding: 8px 4px 0px;font-size: 14px;border-top: 1px solid #d9dbdc;">
+                                                        <p style="text-align: left">Thông tin xuất hóa đơn</p>
+                                                        <ul style="line-height: 22px;max-width: 460px;text-align: justify;margin-left: -20px;">
+                                                            <li>
+                                                                <p>Mã số thuế: 0105983269</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Địa chỉ: Tầng 11, Tòa nhà Peak View, 36 Hoàng Cầu,
+                                                                    Phường Ô Chợ Dừa, Quận Đống Đa, Hà Nội</p>
+                                                            </li>
+                                                            <li><p>Email nhận hóa đơn điện tử: invoice@mytour.vn</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-63" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content stack"
+                               style=" color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style="font-weight: 400; text-align: left; vertical-align: top; padding:0px; border:none"
+                                    width="100%">
+                                    <div class="spacer_block" style="height:10px;line-height:10px;"> </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-64 mobile_hide" width="100%"
+                   th:if="${data.directManager!=null}">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content stack"
+                               style=" color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #00b6f3; padding-left: 10px; padding-right: 5px; border:none"
+                                    width="33.333333333333336%">
+                                    <table cellpadding="0" cellspacing="0" class="paragraph_block"
+                                           style=" word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td style="padding-bottom:10px;padding-left:5px;padding-right:5px;padding-top:10px;">
+                                                <div style="text-align:left;">
+                                                    <p style="margin: 0;"><span style="color: #ffffff;">Tư vấn viên<br/></span><span
+                                                            th:text="${data.directManager.name}"> Trần Đức Dũng</span>
+                                                    </p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td class="column column-2"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #00b6f3; border:none"
+                                    width="33.333333333333336%">
+                                    <table cellpadding="0" cellspacing="0" class="paragraph_block"
+                                           style=" word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td style="padding-bottom:10px;padding-left:5px;padding-right:5px;padding-top:10px;">
+                                                <div style="text-align:left;">
+                                                    <p style="margin: 0;"><span
+                                                            style="color: #ffffff;">Số điện thoại <br/></span><span
+                                                            th:text="${data.directManager.phone}">0123456789</span>
+                                                    </p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td class="column column-3"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; background-color: #00b6f3; border:none"
+                                    width="33.333333333333336%">
+                                    <table cellpadding="0" cellspacing="0" class="paragraph_block"
+                                           style=" word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td style="padding-bottom:10px;padding-left:5px;padding-right:5px;padding-top:10px;">
+                                                <div style="text-align:left;">
+                                                    <p style="margin: 0;"><span
+                                                            style="color: #ffffff;">Email<br/></span><span
+                                                            th:text="${data.directManager.email}">mailmail@mail.com</span>
+                                                    </p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-66" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content stack"
+                               style=" color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; padding:0px; border:none"
+                                    width="100%">
+                                    <div class="spacer_block" style="height:10px;line-height:10px;"> </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table align="center" cellpadding="0" cellspacing="0" class="row row-67" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <table align="center" cellpadding="0" cellspacing="0" class="row-content"
+                               style=" color: #000000; width: 720px;" width="720">
+                            <tbody>
+                            <tr>
+                                <td class="column column-1"
+                                    style=" font-weight: 400; text-align: left; vertical-align: top; border-bottom: 1px solid #D9DBDC; border-left: 1px solid #D9DBDC; border-right: 1px solid #D9DBDC; border-top: 1px solid #D9DBDC; padding-top: 5px; padding-bottom: 10px;"
+                                    width="100%">
+                                    <table cellpadding="10" cellspacing="0" class="paragraph_block"
+                                           style=" word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td>
+                                                <div style="color:#ff2c00;text-align:left;">
+                                                    <p style="margin: 0;">Lưu ý dành cho khách sạn</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellpadding="5" cellspacing="0" class="list_block"
+                                           style=" word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td>
+                                                <ul style="margin: 0; padding: 0; margin-left: 20px; letter-spacing: 0px; text-align: left;">
+                                                    <li><span style="color: #716e6e;">Loại giá OTA: Giá & phòng MẶC ĐỊNH được xác nhận dựa trên thông tin giá & phòng có sẵn do khách sạn cập nhật trên hệ thống quản lý của Mytour</span>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellpadding="5" cellspacing="0" class="list_block"
+                                           style=" word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td>
+                                                <ul style="margin: 0; padding: 0; margin-left: 20px; letter-spacing: 0px; text-align: left;">
+                                                    <li><span style="color: #716e6e;">Loại giá TA Instant: Giá & phòng MẶC ĐỊNH được xác nhận dựa trên thông tin giá & phòng có sẵn do khách sạn cập nhật trên hệ thống quản lý của Mytour</span>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellpadding="5" cellspacing="0" class="list_block"
+                                           style=" word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td>
+                                                <ul style="margin: 0; padding: 0; margin-left: 20px; letter-spacing: 0px; text-align: left;">
+                                                    <li><span style="color: #716e6e;">Loại giá TA Request: Giá dựa trên thông tin có sẵn trên hệ thống quản lý của Mytour do khách sạn cung cấp, phòng sẽ được xác nhận khi Quý khách sạn bấm xác nhận qua email/trên hệ thống quản lý đơn phòng hoặc xác nhận qua điện thoại với đội ngũ Mytour</span>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellpadding="10" cellspacing="0" class="paragraph_block"
+                                           style=" word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td>
+                                                <div style="color:#d9dbdc;text-align:left;">
+                                                    <p style="margin: 0;"><span style="color: #716e6e;">Khách hàng cần có những thông tin như sau để nhận phòng:</span>
+                                                    </p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellpadding="5" cellspacing="0" class="list_block"
+                                           style=" word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td>
+                                                <ul style="margin: 0; padding: 0; margin-left: 20px; letter-spacing: 0px; text-align: left;">
+                                                    <li><span style="color: #716e6e;">Khách có xác nhận đặt phòng có thông tin đúng với đơn phòng này</span>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellpadding="5" cellspacing="0" class="list_block"
+                                           style=" word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td>
+                                                <ul style="margin: 0; padding: 0; margin-left: 20px; letter-spacing: 0px; text-align: left;">
+                                                    <li><span
+                                                            style="color: #716e6e;">Khách có giấy tờ tùy thân hợp lệ</span>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellpadding="5" cellspacing="0" class="list_block"
+                                           style=" word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td>
+                                                <ul style="margin: 0; padding: 0; margin-left: 20px; letter-spacing: 0px; text-align: left;">
+                                                    <li><span style="color: #716e6e;">Phụ thu phát sinh khác (nếu có), khách sẽ thanh toán tại khách sạn</span>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellpadding="5" cellspacing="0" class="list_block"
+                                           style=" word-break: break-word;" width="100%">
+                                        <tr>
+                                            <td>
+                                                <ul style="margin: 0; padding: 0; margin-left: 20px; letter-spacing: 0px; text-align: left;">
+                                                    <li><span style="color: #716e6e;">Tiền phòng <span
+                                                            th:text="${data.hotelBookingId} + ' - ' + ${data.bookingOriginal.bookingCode}"></span></span>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table><!-- End -->
+</body>
+</html>
