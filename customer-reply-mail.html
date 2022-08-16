@@ -125,8 +125,8 @@
         }
 
         th {
-          padding-left: 0px !important;
-          padding-right: 0px !important;
+          padding-left: 10px !important;
+          padding-right: 10px !important;
         }
       }
     </style>
@@ -172,8 +172,7 @@
         >
           <tbody>
             <tr>
-              <th style="padding: 0px 0px 10px">
-                <!--header-->
+              <td>
                 <table style="width: 100%" width="100%">
                   <tbody>
                     <tr>
@@ -189,6 +188,11 @@
                     </tr>
                   </tbody>
                 </table>
+              </td>
+            </tr>
+            <tr>
+              <th style="padding: 0px 20px 10px">
+                <!--header-->
                 <table
                   align="center"
                   width="100%"
@@ -200,9 +204,9 @@
                   <tbody>
                     <tr>
                       <td
-                        width="24%"
-                        style="padding-top: 15px; padding-left: 10px"
-                        align="right"
+                        width="22%"
+                        style="padding-top: 15px; padding-left: 4px"
+                        align="left"
                       >
                         <img
                           src="https://storage.googleapis.com/phms-dev/contract/img/461282seq/logo-blue.png"
@@ -211,16 +215,17 @@
                         />
                       </td>
                       <td
-                        width="43%"
+                        width="45%"
                         style="text-align: left; padding-top: 15px"
                       ></td>
                       <td
                         width="33%"
                         style="
-                          text-align: left;
+                          text-align: right;
                           padding-top: 15px;
-                          padding-right: 10px;
+                          float: right;
                         "
+                        align="right"
                       >
                         <table
                           cellpadding="0"
@@ -249,6 +254,135 @@
                                   "
                                   >1900 2083</span
                                 >
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table
+                  align="center"
+                  cellpadding="0"
+                  cellspacing="0"
+                  width="100%"
+                >
+                  <tbody>
+                    <tr>
+                      <td
+                        style="
+                          text-align: center;
+                          font-size: 24px;
+                          line-height: 32px;
+                          font-weight: 700;
+                          padding: 20px 10px 8px;
+                        "
+                      >
+                        Bạn có tin nhắn từ khách sạn!
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table
+                  align="center"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="row row-4"
+                  width="100%"
+                >
+                  <tbody>
+                    <tr>
+                      <td>
+                        <table
+                          align="center"
+                          cellpadding="0"
+                          cellspacing="0"
+                          width="100%"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                style="
+                                  font-weight: 400;
+                                  text-align: left;
+                                  vertical-align: top;
+                                  padding: 20px 0px 5px 5px;
+                                  font-size: 14px;
+                                  line-height: 20px;
+                                "
+                                width="100%"
+                              >
+                                <span
+                                  style="font-size: 14px; line-height: 20px"
+                                >
+                                  Kính chào
+                                  <strong>Tên khách sạn</strong>,
+                                </span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                style="
+                                  font-weight: 400;
+                                  text-align: left;
+                                  vertical-align: top;
+                                  padding: 5px 0px 5px 5px;
+                                  font-size: 14px;
+                                  line-height: 20px;
+                                "
+                                width="100%"
+                              >
+                                <span
+                                  style="font-size: 14px; line-height: 20px"
+                                >
+                                  Chúng tôi đã cấn trừ
+                                  <span style="color: #ff3366"
+                                    >Số lượng mã</span
+                                  >
+                                  Voucher
+                                  <span style="color: #ff3366"
+                                    >Tên Voucher</span
+                                  >
+                                  cho đơn phòng
+                                  <span style="color: #00b6f3">Mã đơn hàng</span
+                                  >.
+                                </span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                style="
+                                  font-weight: 400;
+                                  text-align: left;
+                                  vertical-align: top;
+                                  padding: 5px 0px 5px 5px;
+                                  font-size: 14px;
+                                  line-height: 20px;
+                                "
+                                width="100%"
+                              >
+                                <span
+                                  style="font-size: 14px; line-height: 20px"
+                                >
+                                  Quý đối tác có thể
+                                  <a
+                                    th:href="${data.bookingDetailUrl}"
+                                    style="color: #00adff"
+                                  >
+                                    <span
+                                      style="color: #004ebc; cursor: pointer"
+                                      >truy cập hệ thống để xem chi tiết đơn
+                                      hàng
+                                      <strong
+                                        th:text="${data.hotelBookingId}"
+                                      ></strong
+                                      >.
+                                    </span></a
+                                  >
+                                </span>
                               </td>
                             </tr>
                           </tbody>
