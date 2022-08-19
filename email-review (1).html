@@ -1,0 +1,771 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html
+  lang="vi"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:th="http://www.thymeleaf.org"
+>
+  <head>
+    <title></title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!--[if mso]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+          <o:AllowPNG />
+        </o:OfficeDocumentSettings> </xml
+    ><![endif]-->
+    <!--[if !mso]><!-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--<![endif]-->
+    <style>
+      W {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: inherit !important;
+      }
+
+      #MessageViewBody a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .divier {
+        background-color: #edf2f7;
+        height: 1px;
+        margin: 15px 0px;
+      }
+
+      .titlesub {
+        font-weight: bold;
+        font-size: 16px;
+        padding: 10px 0px;
+        float: left;
+      }
+
+      p {
+        line-height: inherit;
+      }
+
+      span {
+        font-size: 14px;
+        color: #1a202c;
+        text-align: left;
+        font-weight: 400;
+        line-height: 17px;
+      }
+
+      table {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+        border-collapse: collapse;
+      }
+
+      th {
+        padding: 0px 24px 20px;
+      }
+
+      .xam td span {
+        color: #718096;
+      }
+
+      .text-left td {
+        text-align: left;
+      }
+
+      .desktop_hide,
+      .desktop_hide table {
+        display: none;
+      }
+
+      @media (max-width: 620px) {
+        .row-content {
+          width: 100% !important;
+        }
+
+        reponse-pad {
+          padding: 0px 15px;
+        }
+
+        .column .border,
+        .mobile_hide {
+          display: none;
+        }
+
+        .stack .column {
+          width: 100%;
+          display: block;
+        }
+
+        .mobile_hide {
+          min-height: 0;
+          max-height: 0;
+          max-width: 0;
+          overflow: hidden;
+          font-size: 0px;
+        }
+
+        .desktop_hide,
+        .desktop_hide table {
+          display: table !important;
+          max-height: none !important;
+        }
+
+        th {
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+        }
+      }
+    </style>
+  </head>
+  <body
+    style="
+      background-color: #f1f1f1;
+      -webkit-text-size-adjust: none;
+      text-size-adjust: none;
+      font-family: Roboto, Tahoma, Verdana, Segoe, sans-serif;
+      padding-bottom: 20px;
+    "
+  >
+    <table
+      class="nl-container"
+      width="100%"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      role="presentation"
+      style="
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+        background-color: #f1f1f1;
+      "
+    >
+      <tbody>
+        <table
+          class="row-content"
+          align="center"
+          border="0"
+          cellpadding="0"
+          cellspacing="0"
+          role="presentation"
+          style="
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+            background-color: #ffffff;
+            color: #000000;
+            width: 600px;
+          "
+          width="600"
+        >
+          <tbody>
+            <tr>
+              <th>
+                <!--<![header]-->
+                <table
+                  align="center"
+                  width="100%"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  style="margin-top: 5px"
+                >
+                  <tbody>
+                    <tr>
+                      <td style="text-align: left">
+                        <img
+                          src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/646706_628872/Logo%20blue.png"
+                          width="100"
+                        />
+                      </td>
+                      <td style="float: right">
+                        <table cellpadding="0" cellspacing="0" width="100%">
+                          <tbody>
+                            <tr>
+                              <td style="float: right">
+                                <div>
+                                  <table style="width: 100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style="width: 100%">
+                                          <table>
+                                            <tbody>
+                                              <tr>
+                                                <td>
+                                                  <img
+                                                    src="https://www.googleapis.com/storage/v1/b/tourcdn/o/1%2Fthumb_GSLP1ZASAW_support_call.png?generation=1600942573736290&alt=media"
+                                                    width="24"
+                                                    height="24"
+                                                  />
+                                                </td>
+                                                <td>
+                                                  <span style="color: #00b6f3"
+                                                    >1900 2083</span
+                                                  >
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                          <table>
+                                            <tbody>
+                                              <tr>
+                                                <td>
+                                                  <img
+                                                    src="https://www.googleapis.com/storage/v1/b/tourcdn/o/1%2Fthumb_QL0FPBW1SV_website.png?generation=1600942176973168&alt=media"
+                                                    width="24"
+                                                    height="24"
+                                                  />
+                                                </td>
+                                                <td>
+                                                  <a
+                                                    style="
+                                                      color: #00b6f3;
+                                                      text-decoration: none;
+                                                      font-weight: 400;
+                                                    "
+                                                  >
+                                                    hotelsupport@mytour.vn
+                                                  </a>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table
+                  align="center"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="row row-2"
+                  style="background-size: auto"
+                  width="100%"
+                >
+                  <tbody>
+                    <tr>
+                      <div style="height: 2px; background-color: #00b6f3"></div>
+                    </tr>
+                  </tbody>
+                </table>
+                <table
+                  align="center"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="row-content"
+                  style="color: #000000; width: 600px"
+                  width="600"
+                >
+                  <tbody>
+                    <tr>
+                      <td
+                        class="column column-1"
+                        style="
+                          font-weight: 400;
+                          text-align: left;
+                          vertical-align: top;
+                          border: none;
+                        "
+                        width="100%"
+                      >
+                        <div
+                          class="spacer_block"
+                          style="height: 20px; line-height: 5px"
+                        >
+                           
+                        </div>
+                        <table
+                          cellpadding="0"
+                          cellspacing="0"
+                          class="heading_block mobile_hide"
+                          width="100%"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                style="
+                                  padding: 25px 20px;
+                                  text-align: center;
+                                  width: 100%;
+                                "
+                              >
+                                <h1
+                                  style="
+                                    margin: 0;
+                                    font-size: 28px;
+                                    font-weight: 400;
+                                    letter-spacing: normal;
+                                    text-align: center;
+                                  "
+                                >
+                                  Chỗ nghỉ của bạn có đánh giá mới
+                                </h1>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div
+                          class="spacer_block"
+                          style="height: 5px; line-height: 5px"
+                        >
+                           
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table
+                  align="center"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="row row-4"
+                  width="100%"
+                >
+                  <tbody>
+                    <tr>
+                      <td>
+                        <table
+                          align="center"
+                          cellpadding="0"
+                          cellspacing="0"
+                          width="100%"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                class="column column-1"
+                                style="
+                                  font-weight: 400;
+                                  text-align: left;
+                                  vertical-align: top;
+                                  padding: 5px;
+                                  border: none;
+                                "
+                                width="100%"
+                              >
+                                <div
+                                  style="
+                                    letter-spacing: 0px;
+                                    line-height: 150%;
+                                    text-align: left;
+                                  "
+                                >
+                                  <p
+                                    style="margin-bottom: 16px; color: #0b0c0d"
+                                  >
+                                    Kính chào
+                                    <strong th:text="${data.rootHotelDTO.name}"
+                                      >Tên khách sạn</strong
+                                    >,
+                                  </p>
+                                  <div>
+                                    <div>
+                                      <p
+                                        style="
+                                          margin-bottom: 16px;
+                                          color: #0b0c0d;
+                                        "
+                                      >
+                                        Chỗ nghỉ
+                                        <strong
+                                          th:text="${data.rootHotelDTO.name}"
+                                          >Tên khách sạn</strong
+                                        >
+                                        của bạn vừa có thêm
+                                        <span
+                                          th:text="${data.numberHotelReview}"
+                                        ></span>
+                                        lượt đánh giá từ khách hàng.
+                                      </p>
+                                    </div>
+                                    <div>
+                                      <p
+                                        style="
+                                          margin-bottom: 16px;
+                                          color: #0b0c0d;
+                                        "
+                                      >
+                                        Vui lòng phản hồi lại khách hàng tại hệ
+                                        thống để nâng cao trải nghiệm của khách
+                                        hàng sau khi sử dụng dịch vụ tại khách
+                                        sạn của bạn, cũng như tạo ấn tượng tối
+                                        cho các khách hàng đến sau.
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div
+                          th:each="hotelReviewDetail: ${data.hotelReviewDetailDTOS}"
+                        >
+                          <table style="width: 100%">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <div
+                                    style="
+                                      background-color: #fff0ed;
+                                      border-radius: 20px;
+                                      padding: 4px 8px;
+                                      margin: 0px 20px;
+                                    "
+                                  >
+                                    <table>
+                                      <tbody>
+                                        <tr>
+                                          <td
+                                            width="20"
+                                            style="
+                                              text-align: left;
+                                              vertical-align: top;
+                                            "
+                                          >
+                                            <img
+                                              src="https://storage.googleapis.com/phms-dev/contract/img/460178JbY/vector.png"
+                                              width="20"
+                                            />
+                                          </td>
+                                          <td
+                                            width="100%"
+                                            style="
+                                              text-align: left;
+                                              padding: 0px 12px;
+                                              width: 500px;
+                                              text-align: justify;
+                                            "
+                                          >
+                                            <p
+                                              style="
+                                                font-weight: 400;
+                                                font-size: 14px;
+                                                line-height: 18px;
+                                                color: #0b0c0d;
+                                                max-width: 500px;
+                                                text-align: justify;
+                                              "
+                                              th:text="${hotelReviewDetail.content}"
+                                            >
+                                              Chỗ nghỉ sạch đẹp, view trực diện
+                                              ra biển rất chill.Nhân viên phục
+                                              vụ nhiệt tình chỉ dẫn...... Chỗ
+                                              nghỉ sạch đẹp, view trực diện ra
+                                              biển rất chill.Nhân viên phục vụ
+                                              nhiệt tình chỉ dẫn......Chỗ nghỉ
+                                              sạch đẹp, view trực diện ra biển
+                                              rất chill.Nhân viên phục vụ nhiệt
+                                              tình chỉ dẫn...... Chỗ nghỉ sạch
+                                              đẹp, view trực diện ra biển rất
+                                              chill.Nhân viên phục vụ nhiệt tình
+                                              chỉ dẫn......
+                                            </p>
+                                          </td>
+                                          <td
+                                            width="20"
+                                            style="
+                                              text-align: left;
+                                              vertical-align: bottom;
+                                            "
+                                          >
+                                            <img
+                                              src="https://storage.googleapis.com/phms-dev/contract/img/460178Omt/vector-1.png"
+                                              width="20"
+                                            />
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div th:if="${data.numberHotelReview > 0}">
+                          <table style="width: 100%" align="right">
+                            <tbody>
+                              <tr>
+                                <td align="right">
+                                  <div
+                                    style="
+                                      border-radius: 20px;
+                                      padding: 4px 8px;
+                                      margin: 0px 20px;
+                                    "
+                                  >
+                                    <table>
+                                      <tbody>
+                                        <tr>
+                                          <td
+                                            style="
+                                              text-align: left;
+                                              vertical-align: top;
+                                            "
+                                          ></td>
+                                          <td
+                                            width="100%"
+                                            style="
+                                              text-align: right;
+                                              padding: 16px 12px 0px;
+                                            "
+                                          >
+                                            <a
+                                              style="
+                                                font-weight: 400;
+                                                font-size: 14px;
+                                                line-height: 18px;
+                                                color: #1976d2;
+                                                cursor: pointer;
+                                                text-decoration: none;
+                                              "
+                                              th:href="${data.linkHms}"
+                                            >
+                                              Xem thêm đánh giá
+                                            </a>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table
+                  align="center"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="row-content"
+                  style="color: #000000; width: 600px"
+                  width="600"
+                >
+                  <tbody>
+                    <tr>
+                      <td
+                        class="column column-1"
+                        style="
+                          font-weight: 400;
+                          text-align: left;
+                          vertical-align: top;
+                          border: none;
+                        "
+                        width="100%"
+                      >
+                        <table
+                          cellpadding="0"
+                          cellspacing="0"
+                          class="heading_block mobile_hide"
+                          width="100%"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                style="
+                                  padding: 20px;
+                                  text-align: center;
+                                  width: 100%;
+                                "
+                              >
+                                <button
+                                  style="
+                                    border-radius: 8px;
+                                    background: #ff6a39;
+                                    padding: 12px 20px;
+                                    color: #ffffff;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    border: 0.5px solid white;
+                                    width: 224px;
+                                    cursor: pointer;
+                                  "
+                                >
+                                  <a th:href="${data.linkHms}">
+                                    Phản hồi lại khách hàng
+                                  </a>
+                                </button>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div
+                          class="spacer_block"
+                          style="height: 5px; line-height: 5px"
+                        >
+                           
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table
+                  align="left"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="row-content"
+                  style="color: #000000; width: 600px"
+                  width="600"
+                >
+                  <tbody>
+                    <tr>
+                      <td
+                        class="column column-1"
+                        style="
+                          font-weight: 400;
+                          text-align: left;
+                          vertical-align: top;
+                          border: none;
+                        "
+                        width="100%"
+                      >
+                        <table
+                          cellpadding="0"
+                          cellspacing="0"
+                          class="heading_block mobile_hide"
+                          width="100%"
+                        >
+                          <tbody>
+                            <tr>
+                              <td style="text-align: left; width: 100%">
+                                <p
+                                  style="
+                                    border-radius: 8px;
+                                    padding: 12px 0px 0px;
+                                    color: #0b0c0d;
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                  "
+                                >
+                                  Mytour xin chân thành cảm ơn!
+                                </p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table
+                  align="center"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="row row-2"
+                  style="background-size: auto"
+                  width="100%"
+                >
+                  <tbody>
+                    <tr>
+                      <td
+                        style="
+                          font-size: 1px;
+                          line-height: 1px;
+                          background-color: #d9dbdc;
+                        "
+                      >
+                        &zwj;
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table
+                  align="left"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="row-content"
+                  style="color: #000000; width: 600px"
+                  width="600"
+                >
+                  <tbody>
+                    <tr>
+                      <td
+                        class="column column-1"
+                        style="
+                          font-weight: 400;
+                          text-align: left;
+                          vertical-align: top;
+                          border: none;
+                        "
+                        width="100%"
+                      >
+                        <table
+                          cellpadding="0"
+                          cellspacing="0"
+                          class="heading_block mobile_hide"
+                          width="100%"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                style="
+                                  text-align: left;
+                                  width: 100%;
+                                  padding: 12px 0px 0px;
+                                "
+                              >
+                                <span
+                                  style="
+                                    color: #0b0c0d;
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                  "
+                                >
+                                  Trân trọng,
+                                </span>
+                                <br />
+                                <span
+                                  style="
+                                    color: #0b0c0d;
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                  "
+                                >
+                                  Đội ngũ Mytour.
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </tbody>
+    </table>
+    <!-- End -->
+  </body>
+</html>
