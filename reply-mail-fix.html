@@ -1,0 +1,972 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html
+  lang="vi"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:th="http://www.thymeleaf.org"
+>
+  <head>
+    <title></title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!--[if mso]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+          <o:AllowPNG />
+        </o:OfficeDocumentSettings> </xml
+    ><![endif]-->
+    <!--[if !mso]><!-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--<![endif]-->
+
+    <style>
+      W {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: inherit !important;
+      }
+
+      #MessageViewBody a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .divier {
+        background-color: #edf2f7;
+        height: 1px;
+        margin: 15px 0px;
+      }
+
+      .titlesub {
+        font-weight: bold;
+        font-size: 16px;
+        padding: 10px 0px;
+        float: left;
+      }
+
+      p {
+        line-height: inherit;
+      }
+
+      span {
+        font-size: 14px;
+        color: #1a202c;
+        text-align: left;
+        font-weight: 400;
+        line-height: 17px;
+      }
+
+      table {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+        border-collapse: collapse;
+      }
+
+      th {
+        padding: 0px 24px 20px;
+      }
+
+      .xam td span {
+        color: #718096;
+      }
+
+      .text-left td {
+        text-align: left;
+      }
+
+      @media (max-width: 600px) {
+        .row-content {
+          width: 100% !important;
+        }
+
+        reponse-pad {
+          padding: 0px 15px;
+        }
+
+        .column .border,
+        .mobile_hide {
+          display: none;
+          mso-hide: all;
+        }
+
+        .stack .column {
+          width: 100%;
+          display: block;
+        }
+
+        .mobile_hide {
+          min-height: 0;
+          max-height: 0;
+          max-width: 0;
+          overflow: hidden;
+          font-size: 0px;
+          mso-hide: all;
+        }
+
+        .desktop_hide,
+        .desktop_hide table {
+          display: table !important;
+          max-height: none !important;
+          mso-hide: all;
+        }
+
+        th {
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body
+    style="
+      background-color: #f1f1f1;
+      -webkit-text-size-adjust: none;
+      text-size-adjust: none;
+      font-family: Roboto, Tahoma, Verdana, Segoe, sans-serif;
+    "
+  >
+    <table
+      class="nl-container"
+      width="100%"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      role="presentation"
+      style="
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+        background-color: #f1f1f1;
+      "
+    >
+      <tbody>
+        <table
+          class="row-content"
+          align="center"
+          border="0"
+          cellpadding="0"
+          cellspacing="0"
+          role="presentation"
+          style="
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+            background-color: #ffffff;
+            color: #000000;
+            width: 600px;
+          "
+          width="600"
+        >
+          <tbody>
+            <tr>
+              <td>
+                <table style="width: 100%" width="100%">
+                  <tbody>
+                    <tr>
+                      <td
+                        style="
+                          font-size: 1px;
+                          line-height: 1px;
+                          border-top: 4px solid #ff3366;
+                        "
+                      >
+                        &zwnj;
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th style="padding: 0px 20px 10px">
+                <!--header-->
+                <table
+                  align="center"
+                  width="100%"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                >
+                  <tbody>
+                    <tr>
+                      <td
+                        width="22%"
+                        style="padding-top: 15px; padding-left: 4px"
+                        align="left"
+                      >
+                        <img
+                          src="https://storage.googleapis.com/phms-dev/contract/img/461282seq/logo-blue.png"
+                          width="135"
+                          height="36"
+                        />
+                      </td>
+                      <td
+                        width="45%"
+                        style="text-align: left; padding-top: 15px"
+                      ></td>
+                      <td
+                        width="33%"
+                        style="
+                          text-align: right;
+                          padding-top: 15px;
+                          float: right;
+                        "
+                        align="right"
+                        nowrap
+                      >
+                        <table
+                          cellpadding="0"
+                          cellspacing="0"
+                          width="100%"
+                          align="right"
+                        >
+                          <tbody>
+                            <tr>
+                              <td style="vertical-align: bottom" align="right">
+                                <img
+                                  src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/646706_628872/ic_mobile%20%281%29.png"
+                                  width="24"
+                                  height="24"
+                                />
+                              </td>
+                              <td style="padding-left: 4px" nowrap>
+                                <span
+                                  style="
+                                    float: left;
+                                    font-size: 12px;
+                                    font-weight: 400;
+                                    white-space: nowrap;
+                                  "
+                                  >Hỗ trợ khách hàng</span
+                                ><br />
+                                <span
+                                  style="
+                                    font-weight: bold;
+                                    float: left;
+                                    font-size: 12px;
+                                    white-space: nowrap;
+                                  "
+                                  >1900 2083</span
+                                >
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table
+                  align="center"
+                  cellpadding="0"
+                  cellspacing="0"
+                  width="100%"
+                >
+                  <tbody>
+                    <tr>
+                      <td
+                        style="
+                          text-align: center;
+                          font-size: 24px;
+                          line-height: 32px;
+                          font-weight: 700;
+                          padding: 20px 10px 8px;
+                        "
+                      >
+                        Bạn có tin nhắn từ khách sạn!
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table
+                  align="center"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="row row-4"
+                  width="100%"
+                >
+                  <tbody>
+                    <tr>
+                      <td>
+                        <table
+                          align="center"
+                          cellpadding="0"
+                          cellspacing="0"
+                          width="100%"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                style="
+                                  font-weight: 400;
+                                  text-align: left;
+                                  vertical-align: top;
+                                  padding: 20px 0px 5px 5px;
+                                  font-size: 14px;
+                                  line-height: 20px;
+                                "
+                                width="100%"
+                              >
+                                <span
+                                  style="font-size: 14px; line-height: 20px"
+                                >
+                                  Kính chào
+                                  <strong th:text="${data.customerName}"
+                                    >Tên khách sạn</strong
+                                  >,
+                                </span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                style="
+                                  font-weight: 400;
+                                  text-align: left;
+                                  vertical-align: top;
+                                  padding: 5px 0px 5px 5px;
+                                  font-size: 14px;
+                                  line-height: 20px;
+                                "
+                                width="100%"
+                              >
+                                <span
+                                  style="font-size: 14px; line-height: 20px"
+                                >
+                                  <strong th:text="${data.hotelName}"
+                                    >Tên khách sạn</strong
+                                  >
+                                  đã phản hồi về đánh giá của bạn cho kỳ nghỉ từ
+                                  ngày
+                                  <strong th:text="${data.checkIn}">CI</strong>
+                                  đến ngày
+                                  <strong th:text="${data.checkOut}">CO</strong
+                                  >.
+                                </span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                style="
+                                  font-weight: 400;
+                                  text-align: left;
+                                  vertical-align: top;
+                                  padding: 5px 0px 5px 5px;
+                                  font-size: 14px;
+                                  line-height: 20px;
+                                "
+                                width="100%"
+                              >
+                                <span
+                                  style="font-size: 14px; line-height: 20px"
+                                >
+                                  Cảm ơn Quý khách đã sử dụng hệ thống Mytour và
+                                  để lại chúng tôi những góp ý quý giá giúp
+                                  khách sạn cải thiện chất lượng dịch vụ và nâng
+                                  cao trải nghiệm cho những khách hàng khác.
+                                  Chúng tôi hi vọng Quý khách sẽ có một trải
+                                  nghiệm đầy thú vị và hài lòng với dịch vụ đặt
+                                  phòng khách sạn của Mytour.
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table
+                  align="center"
+                  width="100%"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                >
+                  <tbody>
+                    <tr>
+                      <td
+                        width="100%"
+                        style="
+                          text-align: right;
+                          padding-top: 15px;
+                          float: left;
+                        "
+                        align="left"
+                      >
+                        <table
+                          cellpadding="0"
+                          cellspacing="0"
+                          width="100%"
+                          align="left"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                width="59"
+                                style="vertical-align: top"
+                                align="left"
+                              >
+                                <img
+                                  th:src="${data.logo}"
+                                  src="https://storage.googleapis.com/phms-dev/contract/img/461284XYR/rectangle-28.png"
+                                  width="59"
+                                  height="59"
+                                />
+                              </td>
+                              <td
+                                style="padding-left: 4px; vertical-align: top"
+                              >
+                                <table
+                                  cellpadding="0"
+                                  cellspacing="0"
+                                  width="100%"
+                                  align="left"
+                                >
+                                  <tr>
+                                    <td
+                                      align="left"
+                                      style="
+                                        padding-bottom: 4px;
+                                        vertical-align: top;
+                                      "
+                                    >
+                                      <span
+                                        style="
+                                          float: left;
+                                          font-size: 16px;
+                                          font-weight: bold;
+                                        "
+                                        th:text="${data.hotelName}"
+                                        >Silk Path Boutique Hà Nội</span
+                                      >
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td
+                                      align="left"
+                                      style="vertical-align: top"
+                                    >
+                                      <span th:each="start : ${data.starLoop}">
+                                        <img
+                                          src="https://storage.googleapis.com/phms-dev/contract/img/461284xuz/ic_star_full.png"
+                                          width="12"
+                                          height="14"
+                                        />
+                                      </span>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td
+                                      align="left"
+                                      style="
+                                        padding-bottom: 4px;
+                                        vertical-align: top;
+                                      "
+                                    >
+                                      <table
+                                        cellpadding="0"
+                                        cellspacing="0"
+                                        width="100%"
+                                        align="left"
+                                      >
+                                        <tr>
+                                          <td
+                                            width="16"
+                                            style="
+                                              padding-top: 2px;
+                                              vertical-align: top;
+                                            "
+                                          >
+                                            <img
+                                              src="https://storage.googleapis.com/phms-dev/contract/img/461283fRJ/vector-3.png"
+                                              width="12"
+                                              height="14"
+                                            />
+                                          </td>
+                                          <td
+                                            style="
+                                              vertical-align: top;
+                                              font-size: 14px;
+                                              font-weight: 400;
+                                            "
+                                            th:text="${data.address}"
+                                          >
+                                            Làng Tập Ninh, Xã Gia Vân, Gia Viễn,
+                                            Ninh Bìn Làng Tập Ninh, Xã Gia Vân,
+                                            Gia Viễn, Ninh Bìnhh
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table
+                  align="center"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="row row-2"
+                  style="background-size: auto"
+                  width="100%"
+                >
+                  <tbody>
+                    <tr>
+                      <td style="font-size: 1px; line-height: 10px">&zwj;</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table style="width: 100%">
+                  <tbody>
+                    <tr>
+                      <td
+                        style="
+                          background-color: #edf2f7;
+                          border-radius: 20px;
+                          padding: 8px;
+                        "
+                      >
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td
+                                width="20"
+                                style="text-align: left; vertical-align: top"
+                              >
+                                <img
+                                  src="https://storage.googleapis.com/phms-dev/contract/img/461284wlD/vector-4.png"
+                                  width="20"
+                                />
+                              </td>
+                              <td
+                                width="100%"
+                                style="
+                                  padding: 0px 12px;
+                                  text-align: justify;
+                                  white-space: pre-line;
+                                "
+                              >
+                                <p
+                                  style="
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 18px;
+                                    color: #0b0c0d;
+                                    max-width: 500px;
+                                    text-align: justify;
+                                    white-space: pre-line;
+                                  "
+                                  th:text="${data.content}"
+                                >
+                                  Thank you for sharing your kind words with us.
+                                  It has been a great pleasure to know that you
+                                  enjoy your stay recently at Lotte Hotel Hanoi.
+                                  I will share your nice comments with Mr.Dennis
+                                  Bui and the whole team and I am sure they will
+                                  be encouraged by your remarks. It means the
+                                  world to us! ....
+                                </p>
+                              </td>
+                              <!--                              <td-->
+                              <!--                                width="20"-->
+                              <!--                                style="text-align: left; vertical-align: bottom"-->
+                              <!--                              >-->
+                              <!--                                <img-->
+                              <!--                                  src="https://storage.googleapis.com/phms-dev/contract/img/461284qWk/bxs_quote-alt-right.png"-->
+                              <!--                                  width="20"-->
+                              <!--                                />-->
+                              <!--                              </td>-->
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table
+                  align="center"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="row-content"
+                  style="color: #000000; width: 600px"
+                  width="600"
+                >
+                  <tbody>
+                    <tr>
+                      <td
+                        class="column column-1"
+                        style="
+                          font-weight: 400;
+                          text-align: left;
+                          vertical-align: top;
+                          border: none;
+                        "
+                        width="100%"
+                      >
+                        <!--                        <table-->
+                        <!--                          cellpadding="0"-->
+                        <!--                          cellspacing="0"-->
+                        <!--                          class="heading_block mobile_hide"-->
+                        <!--                          width="100%"-->
+                        <!--                        >-->
+                        <!--                          <tbody>-->
+                        <!--                            <tr>-->
+                        <!--                              <td-->
+                        <!--                                style="-->
+                        <!--                                  padding: 20px 20px 0px;-->
+                        <!--                                  text-align: center;-->
+                        <!--                                  width: 100%;-->
+                        <!--                                "-->
+                        <!--                              >-->
+                        <!--                                <button-->
+                        <!--                                  style="-->
+                        <!--                                    border-radius: 1000px;-->
+                        <!--                                    background: #ff3366;-->
+                        <!--                                    padding: 12px;-->
+                        <!--                                    color: #ffffff;-->
+                        <!--                                    font-size: 16px;-->
+                        <!--                                    line-height: 24px;-->
+                        <!--                                    border: 0.5px solid white;-->
+                        <!--                                    width: 188px;-->
+                        <!--                                    cursor: pointer;-->
+                        <!--                                  "-->
+                        <!--                                >-->
+                        <!--                                  Xem chi tiết-->
+                        <!--                                </button>-->
+                        <!--                              </td>-->
+                        <!--                            </tr>-->
+                        <!--                          </tbody>-->
+                        <!--                        </table>-->
+
+                        <table
+                          align="center"
+                          cellpadding="0"
+                          cellspacing="0"
+                          class="row row-2"
+                          style="background-size: auto"
+                          width="100%"
+                        >
+                          <tbody>
+                            <tr>
+                              <td style="font-size: 1px; line-height: 25px">
+                                &zwj;
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table style="width: 100%">
+                          <tbody>
+                            <tr>
+                              <td align="center" style="line-height: 10px">
+                                <a
+                                  href="https://mytour.vn/?shortlink=a2e76e35&amp;pid=Cross_sale&amp;c=Cross_Sale_Email"
+                                  target="_blank"
+                                  style="outline: none"
+                                  tabindex="-1"
+                                  ><img
+                                    class="big"
+                                    src="https://storage.googleapis.com/phms-dev/contract/img/461284jUZ/group-1233.png"
+                                    width="100%"
+                                    height="100%"
+                                /></a>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table
+                          align="center"
+                          cellpadding="0"
+                          cellspacing="0"
+                          class="row row-2"
+                          style="background-size: auto"
+                          width="100%"
+                        >
+                          <tbody>
+                            <tr>
+                              <td style="font-size: 1px; line-height: 20px">
+                                &zwj;
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table style="width: 100%">
+                          <tbody>
+                            <tr>
+                              <td align="center" width="33%">
+                                <img
+                                  style="
+                                    display: block;
+                                    padding-bottom: 12px;
+                                    border-bottom: 1px solid #a0aec0;
+                                  "
+                                  src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/646706_628872/001-24-hours%201_1.png"
+                                  alt=""
+                                />
+                                <span style="font-size: 12px; line-height: 20px"
+                                  >Hỗ trợ khách hàng 24/7</span
+                                >
+                                <br />
+                                <span style="font-size: 12px; line-height: 20px"
+                                  >1900 2083</span
+                                >
+                              </td>
+                              <td align="center" width="33%">
+                                <img
+                                  style="
+                                    display: block;
+                                    padding-bottom: 12px;
+                                    border-bottom: 1px solid #a0aec0;
+                                  "
+                                  src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/646706_628872/003-payment%201_1.png"
+                                  alt=""
+                                />
+                                <span style="font-size: 12px; line-height: 20px"
+                                  >Ứng dụng tiện lợi, thanh</span
+                                >
+                                <br />
+                                <span style="font-size: 12px; line-height: 20px"
+                                  >toán dễ dàng</span
+                                >
+                              </td>
+                              <td align="center" width="33%">
+                                <img
+                                  style="
+                                    display: block;
+                                    padding-bottom: 12px;
+                                    border-bottom: 1px solid #a0aec0;
+                                  "
+                                  src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/646706_628872/002-review%201_1.png"
+                                  alt=""
+                                />
+                                <span style="font-size: 12px; line-height: 20px"
+                                  >Giá tốt sát ngày, hơn</span
+                                >
+                                <br />
+                                <span
+                                  style="font-size: 12px; line-height: 20px"
+                                >
+                                  10.000+ khách sạn để lựa chọn</span
+                                >
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table
+                          align="center"
+                          cellpadding="0"
+                          cellspacing="0"
+                          class="row row-2"
+                          style="background-size: auto"
+                          width="100%"
+                        >
+                          <tbody>
+                            <tr>
+                              <td style="font-size: 1px; line-height: 20px">
+                                &zwj;
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <!--footer-->
+                <table width="100%" style="background-color: #ff3366">
+                  <tbody>
+                    <tr>
+                      <td style="text-align: left; padding: 15px 20px">
+                        <span
+                          style="
+                            color: #ffffff;
+                            font-size: 14px;
+                            font-weight: bold;
+                          "
+                        >
+                          CÔNG TY TNHH MYTOUR VIỆT NAM
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table width="100%">
+                          <tbody>
+                            <tr>
+                              <td
+                                width="30%"
+                                style="
+                                  text-align: left;
+                                  vertical-align: top;
+                                  padding: 0px 20px 10px;
+                                "
+                              >
+                                <span
+                                  style="
+                                    font-size: 12px;
+                                    color: #ffffff;
+                                    font-weight: bold;
+                                  "
+                                >
+                                  TP.Hà Nội
+                                </span>
+                              </td>
+                              <td
+                                width="70%"
+                                style="text-align: left; padding: 0px 20px 10px"
+                              >
+                                <span
+                                  style="
+                                    color: #ffffff;
+                                    font-size: 12px;
+                                    font-weight: 400;
+                                  "
+                                  >Tầng 11, Tòa Peakview, 36 Hoàng Cầu, Phường Ô
+                                  Chợ Dừa, Đống Đa
+                                </span>
+                                <br />
+                                <span
+                                  style="
+                                    color: #ffffff;
+                                    font-size: 12px;
+                                    font-weight: 400;
+                                  "
+                                  >Tel: 024 7109 9999</span
+                                >
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table width="100%">
+                          <tbody>
+                            <tr>
+                              <td
+                                width="30%"
+                                style="
+                                  text-align: left;
+                                  vertical-align: top;
+                                  padding: 0px 20px 10px;
+                                "
+                              >
+                                <span
+                                  style="
+                                    font-size: 12px;
+                                    color: #ffffff;
+                                    font-weight: bold;
+                                  "
+                                >
+                                  TP.Hồ Chí Minh
+                                </span>
+                              </td>
+                              <td
+                                width="70%"
+                                style="text-align: left; padding: 0px 20px 10px"
+                              >
+                                <span
+                                  style="
+                                    color: #ffffff;
+                                    font-size: 12px;
+                                    font-weight: 400;
+                                  "
+                                  >Tầng 6, Tòa Central Park, 117 Nguyễn Du,
+                                  Phường Bến Thành, Q1
+                                </span>
+                                <br />
+                                <span
+                                  style="
+                                    color: #ffffff;
+                                    font-size: 12px;
+                                    font-weight: 400;
+                                  "
+                                  >Tel: 028 7109 9998</span
+                                >
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table width="100%">
+                          <tbody>
+                            <tr>
+                              <td
+                                width="30%"
+                                style="
+                                  text-align: left;
+                                  vertical-align: top;
+                                  padding: 0px 20px 15px;
+                                "
+                              >
+                                <span
+                                  style="
+                                    font-size: 12px;
+                                    color: #ffffff;
+                                    font-weight: bold;
+                                  "
+                                >
+                                  Cửa hàng
+                                </span>
+                              </td>
+                              <td
+                                width="70%"
+                                style="text-align: left; padding: 0px 20px 15px"
+                              >
+                                <span
+                                  style="
+                                    color: #ffffff;
+                                    font-size: 12px;
+                                    font-weight: 400;
+                                  "
+                                  >168 Xã Đàn, Đống Đa, Hà Nội
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </tbody>
+    </table>
+  </body>
+</html>
