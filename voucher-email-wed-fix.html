@@ -1,0 +1,983 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html
+  lang="vi"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:th="http://www.thymeleaf.org"
+>
+  <head>
+    <title></title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!--[if mso]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+          <o:AllowPNG />
+        </o:OfficeDocumentSettings> </xml
+    ><![endif]-->
+    <!--[if !mso]><!-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--<![endif]-->
+
+    <style>
+      W {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: inherit !important;
+      }
+
+      #MessageViewBody a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .divier {
+        background-color: #edf2f7;
+        height: 1px;
+        margin: 15px 0px;
+      }
+
+      .titlesub {
+        font-weight: bold;
+        font-size: 16px;
+        padding: 10px 0px;
+        float: left;
+      }
+
+      p {
+        line-height: inherit;
+      }
+
+      span {
+        font-size: 14px;
+        color: #1a202c;
+        text-align: left;
+        font-weight: 400;
+        line-height: 17px;
+      }
+
+      table {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+        border-collapse: collapse;
+      }
+
+      th {
+        padding: 0px 24px 20px;
+      }
+
+      .xam td span {
+        color: #718096;
+      }
+
+      .text-left td {
+        text-align: left;
+      }
+
+      @media (max-width: 720px) {
+        .row-content {
+          width: 100% !important;
+        }
+
+        reponse-pad {
+          padding: 0px 15px;
+        }
+
+        .column .border,
+        .mobile_hide {
+          display: none;
+          mso-hide: all;
+        }
+
+        .stack .column {
+          width: 100%;
+          display: block;
+        }
+
+        .mobile_hide {
+          min-height: 0;
+          max-height: 0;
+          max-width: 0;
+          overflow: hidden;
+          font-size: 0px;
+          mso-hide: all;
+        }
+
+        .desktop_hide,
+        .desktop_hide table {
+          display: table !important;
+          max-height: none !important;
+          mso-hide: all;
+        }
+
+        th {
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body
+    style="
+      background-color: #f1f1f1;
+      -webkit-text-size-adjust: none;
+      text-size-adjust: none;
+      font-family: Roboto, Tahoma, Verdana, Segoe, sans-serif;
+    "
+  >
+    <table
+      class="nl-container"
+      width="100%"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      role="presentation"
+      style="
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+        background-color: #f1f1f1;
+      "
+    >
+      <tbody>
+        <table
+          class="row-content"
+          align="center"
+          border="0"
+          cellpadding="0"
+          cellspacing="0"
+          role="presentation"
+          style="
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+            background-color: #ffffff;
+            color: #000000;
+            width: 720px;
+          "
+          width="720"
+        >
+          <tbody>
+            <tr>
+              <th style="padding: 0px 24px 10px">
+                <table
+                  align="center"
+                  width="100%"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                >
+                  <tbody>
+                    <tr>
+                      <td width="100%" style="text-align: left">
+                        <img
+                          src="https://storage.googleapis.com/phms-dev/contract/img/460132kNz/group-1.png"
+                          width="90"
+                        />
+                      </td>
+                      <td style="float: right">
+                        <table cellpadding="0" cellspacing="0" width="100%">
+                          <tbody>
+                            <tr>
+                              <td style="float: right">
+                                <div>
+                                  <table style="width: 100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style="width: 100%">
+                                          <table>
+                                            <tbody>
+                                              <tr>
+                                                <td>
+                                                  <img
+                                                    src="https://storage.googleapis.com/phms-dev/contract/img/460132BEM/support-call-1.png"
+                                                    width="16"
+                                                    height="16"
+                                                  />
+                                                </td>
+                                                <td
+                                                  style="
+                                                    color: #ff3366;
+                                                    text-decoration: none;
+                                                    font-weight: 400;
+                                                    font-size: 12px;
+                                                  "
+                                                >
+                                                  <span
+                                                    style="
+                                                      color: #ff3366;
+                                                      text-decoration: none;
+                                                      font-weight: 400;
+                                                      font-size: 12px;
+                                                    "
+                                                    >1900 2083</span
+                                                  >
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                          <table>
+                                            <tbody>
+                                              <tr>
+                                                <td style="padding-top: 2px">
+                                                  <img
+                                                    src="https://storage.googleapis.com/phms-dev/contract/img/460132duY/email.png"
+                                                    width="16"
+                                                    height="16"
+                                                  />
+                                                </td>
+                                                <td
+                                                  style="
+                                                    color: #ff3366;
+                                                    font-weight: 400;
+                                                    font-size: 12px;
+                                                    vertical-align: top;
+                                                    text-decoration: none;
+                                                  "
+                                                >
+                                                  <span
+                                                    style="
+                                                      color: #ff3366;
+                                                      text-decoration: none;
+                                                      font-weight: 400;
+                                                      font-size: 12px;
+                                                    "
+                                                  >
+                                                    <a
+                                                      style="
+                                                        color: #ff3366;
+                                                        text-decoration: none;
+                                                        font-weight: 400;
+                                                        font-size: 12px;
+                                                      "
+                                                    >
+                                                      hotelsupport@mytour.vn
+                                                    </a>
+                                                  </span>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table width="100%">
+                  <tbody>
+                    <tr>
+                      <td
+                        style="
+                          font-size: 1px;
+                          line-height: 1px;
+                          border-bottom: 2px solid #ff3366;
+                        "
+                      >
+                        &zwnj;
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table
+                  align="center"
+                  border="0"
+                  width="100%"
+                  cellpadding="0"
+                  cellspacing="0"
+                >
+                  <tbody>
+                    <tr>
+                      <td
+                        width="100%"
+                        style="padding-top: 15px; width: 100%"
+                        align="center"
+                      >
+                        <img
+                          src="https://storage.googleapis.com/phms-dev/contract/img/461114IDR/group-2-1.png"
+                          width="94"
+                          height="92"
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        width="100%"
+                        style="
+                          vertical-align: top;
+                          font-weight: bold;
+                          font-size: 24px;
+                          line-height: 30px;
+                          color: #ff3366;
+                        "
+                        align="center"
+                      >
+                        <span
+                          style="
+                            font-weight: bold;
+                            font-size: 24px;
+                            line-height: 30px;
+                            color: #ff3366;
+                          "
+                          th:text="${data.title}"
+                          >Cấn trừ đơn phòng
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table
+                  align="center"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="row row-4"
+                  width="100%"
+                >
+                  <tbody>
+                    <tr>
+                      <td>
+                        <table
+                          align="center"
+                          cellpadding="0"
+                          cellspacing="0"
+                          width="100%"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                style="
+                                  font-weight: 400;
+                                  text-align: left;
+                                  vertical-align: top;
+                                  padding: 20px 0px 5px 5px;
+                                  font-size: 14px;
+                                  line-height: 20px;
+                                "
+                                width="100%"
+                              >
+                                <span
+                                  style="font-size: 14px; line-height: 20px"
+                                >
+                                  Kính chào
+                                  <strong th:text="${data.hotelName}"
+                                    >Tên khách sạn</strong
+                                  >,
+                                </span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                style="
+                                  font-weight: 400;
+                                  text-align: left;
+                                  vertical-align: top;
+                                  padding: 5px 0px 5px 5px;
+                                  font-size: 14px;
+                                  line-height: 20px;
+                                "
+                                width="100%"
+                              >
+                                <span
+                                  style="font-size: 14px; line-height: 20px"
+                                >
+                                  Chúng tôi đã cấn trừ đơn phòng
+                                  <span
+                                    style="color: #00b6f3; font-weight: bold"
+                                    th:text="${data.bookingCode}"
+                                    >Mã đơn phòng</span
+                                  >&nbsp;với:
+                                  <br />
+                                  <span th:if="${data.voucher != null}">
+                                    <span>•&nbsp;</span>
+                                    <span
+                                      style="color: #ff3366; font-weight: bold"
+                                      th:text="${data.voucher.numberCodes}"
+                                      >Số lượng mã</span
+                                    >
+                                    Voucher
+                                    <span
+                                      style="color: #ff3366; font-weight: bold"
+                                      th:text="${data.voucher.voucherName}"
+                                      >Tên Voucher</span
+                                    >
+                                  </span>
+                                </span>
+                                <br />
+                                <span th:if="${data.foc != null}">
+                                  <span>•&nbsp;</span>
+                                  <span
+                                    style="color: #ff3366; font-weight: bold"
+                                    th:text="${data.foc.numberCodes}"
+                                    >Số lượng mã</span
+                                  >
+                                  FOC
+                                  <span
+                                    style="color: #ff3366; font-weight: bold"
+                                    th:text="${data.foc.voucherName}"
+                                    >Tên FOC</span
+                                  >
+                                </span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                style="
+                                  font-weight: 400;
+                                  text-align: left;
+                                  vertical-align: top;
+                                  padding: 5px 0px 5px 5px;
+                                  font-size: 14px;
+                                  line-height: 20px;
+                                "
+                                width="100%"
+                              >
+                                <span
+                                  style="font-size: 14px; line-height: 20px"
+                                >
+                                  Quý đối tác có thể
+                                  <a
+                                    th:href="${data.bookingDetailUrl}"
+                                    style="
+                                      color: #004ebc;
+                                      text-decoration: underline;
+                                    "
+                                  >
+                                    <span
+                                      style="color: #004ebc; cursor: pointer"
+                                      >truy cập hệ thống để xem chi tiết đơn
+                                      hàng.
+                                    </span></a
+                                  >
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="text-align: left; padding: 10px 5px 5px">
+                        <span
+                          style="
+                            color: #ff3366;
+                            font-size: 14px;
+                            font-weight: bold;
+                          "
+                        >
+                          Thông tin đơn phòng
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table width="100%">
+                  <tbody>
+                    <tr>
+                      <td
+                        width="50%"
+                        style="
+                          text-align: left;
+                          padding: 5px;
+                          font-size: 14px;
+                          color: #070606;
+                        "
+                      >
+                        <span style="color: #969892; font-size: 14px">
+                          Tổng tiền đơn phòng
+                        </span>
+                      </td>
+                      <td
+                        width="50%"
+                        style="
+                          text-align: right;
+                          padding: 5px;
+                          font-size: 14px;
+                          color: #070606;
+                        "
+                      >
+                        <span
+                          style="font-size: 14px; color: #070606"
+                          th:text="${data.bookingPrice}"
+                        >
+                          Tổng tiền đơn
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table width="100%" th:if="${data.voucher != null}">
+                  <tbody>
+                    <tr>
+                      <td
+                        width="50%"
+                        style="
+                          text-align: left;
+                          padding: 5px;
+                          font-size: 14px;
+                          color: #070606;
+                        "
+                      >
+                        <span style="color: #969892; font-size: 14px">
+                          Tổng tiền cấn trừ Voucher
+                        </span>
+                      </td>
+                      <td
+                        width="50%"
+                        style="
+                          text-align: right;
+                          padding: 5px;
+                          font-size: 14px;
+                          color: #070606;
+                        "
+                      >
+                        <span
+                          style="font-size: 14px; color: #070606"
+                          th:text="${data.voucher.totalVoucherPrice}"
+                        >
+                          Tổng tiền cấn trừ
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table width="100%" th:if="${data.foc != null}">
+                  <tbody>
+                    <tr>
+                      <td
+                        width="50%"
+                        style="
+                          text-align: left;
+                          padding: 5px;
+                          font-size: 14px;
+                          color: #070606;
+                        "
+                      >
+                        <span style="color: #969892; font-size: 14px">
+                          Tổng tiền cấn trừ FOC
+                        </span>
+                      </td>
+                      <td
+                        width="50%"
+                        style="
+                          text-align: right;
+                          padding: 5px;
+                          font-size: 14px;
+                          color: #070606;
+                        "
+                      >
+                        <span
+                          style="font-size: 14px; color: #070606"
+                          th:text="${data.foc.totalVoucherPrice}"
+                        >
+                          Tổng tiền cấn trừ
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table width="100%">
+                  <tbody>
+                    <tr>
+                      <td
+                        width="50%"
+                        style="
+                          text-align: left;
+                          padding: 5px;
+                          font-size: 14px;
+                          color: #070606;
+                          vertical-align: top;
+                          font-weight: bold;
+                        "
+                      >
+                        <span
+                          style="
+                            color: #969892;
+                            font-size: 14px;
+                            font-weight: bold;
+                          "
+                        >
+                          Tổng tiền cần trả NCC
+                        </span>
+                      </td>
+                      <td
+                        width="50%"
+                        style="
+                          text-align: right;
+                          padding: 5px;
+                          font-size: 14px;
+                          color: #070606;
+                          vertical-align: top;
+                        "
+                      >
+                        <span
+                          style="
+                            font-size: 14px;
+                            color: #ff3366;
+                            font-weight: bold;
+                          "
+                          th:text="${data.finalPrice}"
+                        >
+                          Tổng tiền trả NCC
+                        </span>
+                        <br />
+                        <span
+                          style="
+                            font-size: 12px;
+                            color: #00b6f3;
+                            font-style: italic;
+                          "
+                        >
+                          Đã bao gồm VAT
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table width="100%" th:if="${data.voucher != null}">
+                  <tbody>
+                    <tr>
+                      <td style="text-align: left; padding: 0px 5px 5px">
+                        <span
+                          style="
+                            color: #ff3366;
+                            font-size: 14px;
+                            font-weight: bold;
+                          "
+                        >
+                          Chi tiết Voucher
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table
+                  align="left"
+                  border="0"
+                  width="100%"
+                  cellpadding="0"
+                  cellspacing="0"
+                  th:if="${data.voucher != null}"
+                >
+                  <tbody>
+                    <tr>
+                      <td width="100%" align="left" style="padding-left: 5px">
+                        <img
+                          src="https://storage.googleapis.com/phms-dev/contract/img/461117PFc/image-1.png"
+                          height="92"
+                        />
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table width="100%" th:if="${data.voucher != null}">
+                  <tbody>
+                    <tr>
+                      <td
+                        width="50%"
+                        style="
+                          text-align: left;
+                          padding: 5px;
+                          font-size: 14px;
+                          color: #070606;
+                          vertical-align: top;
+                        "
+                      >
+                        <span style="color: #969892; font-size: 14px">
+                          Mã Voucher sử dụng
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table width="100%" th:if="${data.voucher != null}">
+                  <tbody>
+                    <tr>
+                      <td
+                        width="100%"
+                        style="
+                          text-align: left;
+                          padding: 0px 5px 5px;
+                          font-size: 14px;
+                          color: #ff3366;
+                          vertical-align: top;
+                        "
+                      >
+                        <span
+                          style="color: #ff3366; font-size: 14px"
+                          th:text="${data.voucher.codes}"
+                        >
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <!-- <table width="100%">
+                  <tbody>
+                    <tr>
+                      <td
+                        width="50%"
+                        style="
+                          text-align: left;
+                          padding: 5px;
+                          color: #969892;
+                          font-size: 12px;
+                          font-style: italic;
+                        "
+                      >
+                        <span
+                          style="
+                            color: #969892;
+                            font-size: 12px;
+                            font-style: italic;
+                          "
+                        >
+                          *Để xem toàn bộ ảnh Voucher kèm mã code của đơn hàng,
+                          quý đối tác vui lòng truy cập tệp đính kèm của email.
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table> -->
+
+                <table width="100%" th:if="${data.foc != null}">
+                  <tbody>
+                    <tr>
+                      <td style="text-align: left; padding: 10px 5px 5px">
+                        <span
+                          style="
+                            color: #ff3366;
+                            font-size: 14px;
+                            font-weight: bold;
+                          "
+                        >
+                          Chi tiết FOC
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table width="100%" th:if="${data.foc != null}">
+                  <tbody>
+                    <tr>
+                      <td
+                        width="50%"
+                        style="
+                          text-align: left;
+                          padding: 5px;
+                          font-size: 14px;
+                          color: #070606;
+                          vertical-align: top;
+                        "
+                      >
+                        <span style="color: #969892; font-size: 14px">
+                          Mã FOC sử dụng
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table width="100%" th:if="${data.foc != null}">
+                  <tbody>
+                    <tr>
+                      <td
+                        width="100%"
+                        style="
+                          text-align: left;
+                          padding: 0px 5px 5px;
+                          font-size: 14px;
+                          color: #ff3366;
+                          vertical-align: top;
+                        "
+                      >
+                        <span
+                          style="color: #ff3366; font-size: 14px"
+                          th:text="${data.foc.codes}"
+                        >
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table width="100%">
+                  <tbody>
+                    <tr>
+                      <td
+                        style="
+                          font-size: 1px;
+                          line-height: 1px;
+                          border-bottom: 2px solid #ff3366;
+                          padding: 10px 5px 5px;
+                        "
+                      >
+                        &zwnj;
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: left; padding: 10px 5px 5px">
+                        <span
+                          style="
+                            color: #ff3366;
+                            font-size: 14px;
+                            font-weight: bold;
+                          "
+                        >
+                          CÔNG TY TNHH MYTOUR VIỆT NAM
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table width="100%">
+                          <tbody>
+                            <tr>
+                              <td
+                                width="30%"
+                                style="
+                                  text-align: left;
+                                  vertical-align: top;
+                                  padding: 0px 5px;
+                                "
+                              >
+                                <span
+                                  style="
+                                    font-size: 12px;
+                                    color: #ff3366;
+                                    font-weight: bold;
+                                  "
+                                >
+                                  TP.Hà Nội
+                                </span>
+                              </td>
+                              <td width="70%" style="text-align: left">
+                                <span style="font-size: 12px; font-weight: 400"
+                                  >Tầng 11, Tòa Peakview, 36 Hoàng Cầu, Phường Ô
+                                  Chợ Dừa, Đống Đa
+                                </span>
+                                <br />
+                                <span style="font-size: 12px; font-weight: 400"
+                                  >Tel: 024 7109 9999</span
+                                >
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table width="100%">
+                          <tbody>
+                            <tr>
+                              <td
+                                width="30%"
+                                style="
+                                  text-align: left;
+                                  vertical-align: top;
+                                  padding: 0px 5px;
+                                "
+                              >
+                                <span
+                                  style="
+                                    font-size: 12px;
+                                    color: #ff3366;
+                                    font-weight: bold;
+                                  "
+                                >
+                                  TP.Hồ Chí Minh
+                                </span>
+                              </td>
+                              <td width="70%" style="text-align: left">
+                                <span style="font-size: 12px; font-weight: 400"
+                                  >Tầng 6, Tòa Central Park, 117 Nguyễn Du,
+                                  Phường Bến Thành, Q1
+                                </span>
+                                <br />
+                                <span style="font-size: 12px; font-weight: 400"
+                                  >Tel: 028 7109 9998</span
+                                >
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table width="100%">
+                          <tbody>
+                            <tr>
+                              <td
+                                width="30%"
+                                style="
+                                  text-align: left;
+                                  vertical-align: top;
+                                  padding: 0px 5px;
+                                "
+                              >
+                                <span
+                                  style="
+                                    font-size: 12px;
+                                    color: #ff3366;
+                                    font-weight: bold;
+                                  "
+                                >
+                                  Cửa hàng
+                                </span>
+                              </td>
+                              <td width="70%" style="text-align: left">
+                                <span style="font-size: 12px; font-weight: 400"
+                                  >168 Xã Đàn, Đống Đa, Hà Nội
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </tbody>
+    </table>
+  </body>
+</html>
